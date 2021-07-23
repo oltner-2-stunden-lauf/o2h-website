@@ -1,0 +1,59 @@
+---
+layout: plain
+---
+<div id="content" class="uk-container">
+{% for item in site.homepage_sections %}
+    <div class="uk-grid-collapse uk-flex-center@s uk-margin-large-bottom" uk-grid>
+        <div class="uk-width-1-1@s uk-width-2-3@m">
+            <h2 id="item{{ forloop.index }}">{{ item.heading }}</h2>
+            {% if item.content %}
+                <div class="sh-hyphen{% if item.columns %} uk-column-1-2@m{% endif %}">
+                {{ item.content | markdownify }}
+                </div>
+            {% endif %}
+            {% if item.cards %}
+            <!-- ## CARDS ############################################ -->
+            <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid uk-height-match="target: > div > .uk-card">
+                {% for card in item.cards %}
+                <div id="card{{ forloop.index }}">
+                    <div class="uk-card uk-card-small uk-card-hover uk-card-default">
+                    {% if card.image %}
+                        <div class="uk-card-media-top">
+                            <img src="assets/img/{{ card.image }}" alt="">
+                        </div>
+                    {% endif %}
+                    <div class="uk-card-body">
+                    {% if card.title %}
+                    <h3 class="uk-card-title" >{{ card.title }}</h3>
+                    {% endif %}
+                    <div {% if card.no-hyphen %}{% else %}class="sh-hyphen"{% endif %}>
+                    {{ card.body | markdownify }}
+                    </div>
+                    </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+            {% endif %}
+            {% if item.specs %}
+            <table class="uk-table uk-table-divider uk-table-justify  uk-table-striped">
+                <tbody>
+                    {% for spec in item.specs %}
+                    <tr>
+                        <td class="uk-table-shrink">{{ spec.t }}</td>
+                        <td class="uk-table-expand sh-hyphen">{{ spec.d }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+            {% endif %}
+        </div>
+    </div>
+{% endfor %}
+</div>
+<script src="/o2h/js/handlebars.js"></script>
+<script src="/o2h/js/loader.js"></script>
+<script>
+    o2hLoader('/o2h/REST/v1/webData','webData',1000*120);
+    o2hLoader('/o2h/REST/v1/webResults','webResults',1000*60);
+</script>

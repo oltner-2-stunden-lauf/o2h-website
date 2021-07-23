@@ -1,0 +1,51 @@
+<nav class="uk-navbar-container up-position-relative" 
+    uk-navbar uk-sticky="top: 80vh;">
+    <div class="uk-navbar-left">
+        <ul class="uk-navbar-nav">
+            <li><a href="#"><img src="assets/img/logo.svg"></a></li>
+        </ul>
+    </div>
+    <div class="uk-navbar-center">
+        <ul class="uk-navbar-nav">
+            <li><a href="/o2h#lang=de">Anmeldung</a></li>
+        </ul>
+    </div>
+    <div class="uk-navbar-right">
+        <ul class="uk-navbar-nav">
+            {% for item in site.homepage_sections %}
+                {% if item.navbar == true %}
+                <li class="uk-visible@m"><a 
+                    href="{% if item.href %}{{ item.href }}{% else %}#item{{ forloop.index }}{% endif %}"
+                    uk-scroll="offset: 40;">
+                    {{ item.menu }}</a></li>
+                {% endif %}
+            {% endfor %}
+            <li><a href="#" uk-toggle="target: #offcanvas-reveal" uk-icon="icon: menu; ratio: 1.5"></a> </li>
+        </ul>
+    </div>
+</nav>
+<div id="offcanvas-reveal" uk-offcanvas="mode: slide; overlay: false; flip: 
+true">
+    <div class="uk-offcanvas-bar">
+
+        <button class="uk-offcanvas-close" type="button" uk-close></button>
+
+        <ul class="uk-list">
+            {% for item in site.homepage_sections %}
+            <li><h4><a class="uk-link-text"
+                href="{% if item.href %}{{ item.href }}{% else %}#item{{ forloop.index }}{% endif %}"
+                uk-scroll="offset: 40;"
+                uk-toggle="target: #offcanvas-reveal">{{ item.menu }}</a></h4></li>
+            {% endfor %}
+        </ul>
+   </div>
+</div>
+<div id="title-page">
+    <div>
+    <img src="assets/img/homepage.svg"/>
+    {% raw %}
+    <div class="webData uk-text-large">{{meta.parts}}&#8239;TN – {{meta.fix}}&#8239;CHF – {{meta.pkm}}&#8239;CHF/KM</div>
+    {% endraw %}
+    <a href="#item1" class="scroll-down-link scroll-down-arrow" uk-scroll="offset: 80;"></a>
+    </div>
+</div>

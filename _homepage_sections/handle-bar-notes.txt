@@ -1,0 +1,124 @@
+<PAGE AUTHOR="Tobias Oetiker <tobi@oetiker.ch>"
+      PAGE="welcome">
+
+<h1>33. Oltner 2-Stunden-Lauf</h1>
+#<div class="webData" style="
+#    color: rgba(255,255,255,0.5);
+#    margin-top: -2ex;
+#">Schon {{meta.parts}} sind angemeldet!</div>
+
+<style>
+.live {
+  animation: 4s blink ease infinite;  
+}
+
+@keyframes blink {
+  from, to {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+</style>
+
+<h3>2-Stunden-Lauf Corona Edition</h3>
+
+<p>YES! Der Oltner 2-Stunden-Lauf fand auch 2020 statt. Trotz Corona und
+Abstandsregeln und Risiko. Wegen Corona und Abstandsregeln und Risiko fand
+der Lauf jedoch <em>dezentral</em> statt. Alles bestimmten selbst ihre
+Rennstrecke.</p>
+
+<h3>Projekte 2020: Herzstiftung und Bildungsprojekt Haiti</h3>
+
+<p>Was gleich bleibt, ist unser Ziel: Möglichst viel Geld für die zwei
+offiziellen Laufprojekte zu sammeln. Indem du Sponsoren findest, die deinen Laufeinsatz
+mit einem Betrag pro Kilometer unterstützen, trägst du zum Erfolg des <a
+href="inter.de.html">Horyzon Bildungsprojektes in Haiti</a> und der Aktivitäten <a
+href="local.de.html">der Herzstiftung Olten</a> bei.</p>
+
+<h3><span class="live">Live!</span> Resultate</h3>
+
+<p>Zum <a href="bericht.de.html">Laufbericht</a></p>
+
+<div class="webData">
+<p>Sponsorgeld Zugesagt: {{meta.totalchf}} CHF<br/>
+Sponsorgeld Einbezahlt: {{meta.rctotalchf}} CHF<br/>
+Gelaufen: {{meta.completed}}<br/>
+Distanz: {{meta.totalkm}} km</p>
+</div>
+
+<h4><b>Gelaufen sind</b></h4>
+
+<script class="webResults" type="handlebar">
+<table class="resultate">
+<tr>
+  <th>Name</th>
+  <th>Gruppe</th>
+  <th>Start</th>
+  <th>Dauer</th>
+  <th>Speed</th>
+  <th>Distanz</th>
+  <th>Betrag</th>
+  <th>Bezahlt</th>
+</tr>
+{{#each results}}
+<tr>
+  <td style="{{#if active}}font-weight: bold;{{/if}}white-space: nowrap;"> <a style="color: white;" title="Click zum Sponsern!" target="_blank"
+href="{{link}}"><div style="overflow: hidden; text-overflow: ellipsis; max-width:
+15ex;">{{name}}</div></a></td>
+  <td><div style="white-space: nowrap;overflow: hidden; text-overflow: ellipsis; max-width:20ex;">{{grop}}</div></td>
+  <td style="white-space: nowrap;">{{start}}</td>
+  <td>{{duration}}</td>
+  <td style="text-align: right;">{{speed}}</td>
+  <td style="text-align: right;white-space: nowrap;">{{dist}} km</td>
+  <td style="text-align: right;white-space: nowrap;">{{chf}} CHF</td>
+  <td style="text-align: right;white-space: nowrap;">{{rcchf}} CHF</td>
+</tr>
+{{/each}}
+</table>
+<div style="font-size: 12px;">
+SD = Selbst-Deklaration; aktualisiert am <span class="live">{{now}}</span>
+</div>
+
+<p>Sponsoring ist noch immer möglich, einfach auf den entsprechenden Namen
+clicken und Formular ausfüllen.</p>
+</script>
+
+<h3>Gruppen Auswertung</h3>
+
+<script class="webData" type="handlebar">
+<table class="resultate">
+<tr><th>Gruppe</th><th>Personen</th><th>Distanz</th><th>Erwartet</th><th>Erhalten</th></tr>
+{{#each grop}}
+<tr>
+  <td style="padding-left: 0px;">{{name}}</td>
+  <td>{{parts}}</td>
+  <td style="text-align: right;white-space: nowrap;">{{distance_km}} km</td>
+  <td style="text-align: right;white-space: nowrap;">{{expected_chf}} CHF</td>
+  <td style="text-align: right;white-space: nowrap;">{{received_chf}} CHF</td>
+</tr>
+{{/each}}
+<tr>
+  <td colspan="3" style="padding-left: 0px;">Lokales Projekt Herzstiftung</td>
+  <td style="text-align: right;white-space: nowrap;">{{meta.totallocalchf}} CHF</td>
+  <td style="text-align: right;white-space: nowrap;">{{meta.rctotallocalchf}} CHF</td>
+</tr>
+<tr>
+  <td colspan="3" style="padding-left: 0px;">Internationales Projekt Horyzon</td>
+  <td style="text-align: right;white-space: nowrap;">{{meta.totalintlchf}} CHF</td>
+  <td style="text-align: right;white-space: nowrap;">{{meta.rctotalintlchf}} CHF</td>
+</tr>
+</table>
+</script>
+
+
+<protect>
+<script src="/srv/js/handlebars.js"></script>
+<script src="/srv/js/loader.js"></script>
+<script>
+    o2hLoader('/srv/REST/v1/webData','webData',1000*120);
+    o2hLoader('/srv/REST/v1/webResults','webResults',1000*60);
+</script>
+</protect>
