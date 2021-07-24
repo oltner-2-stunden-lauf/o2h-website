@@ -90,12 +90,10 @@ footer {
     max-width: 9em;
 }
 
-.people {
-    h5 {
-        margin-top: 1ex;
-    }
-
-    h4 {
-        margin-bottom: 1ex;
+.part {
+    .sponsor {
+        bottom: 1ex;
+        right: 1ex;
+        position: absolute;
     }
 }

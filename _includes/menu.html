@@ -1,14 +1,13 @@
-<nav class="uk-navbar-container up-position-relative" 
-    uk-navbar uk-sticky="top: 80vh;">
+<nav class="uk-navbar-container uk-background-muted" 
+    uk-navbar uk-sticky="top: 80vh;animation: uk-animation-slide-top;">
     <div class="uk-navbar-left">
         <ul class="uk-navbar-nav">
             <li><a href="#"><img src="assets/img/logo.svg"></a></li>
         </ul>
     </div>
     <div class="uk-navbar-center">
-        <ul class="uk-navbar-nav">
-            <li><a href="/o2h#lang=de">Anmeldung</a></li>
-        </ul>
+        <div class="uk-navbar-item"><a class="uk-button uk-button-primary" href="/o2h#lang=de">Anmeldung</a></li>
+        </div>
     </div>
     <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
@@ -16,11 +15,11 @@
                 {% if item.navbar == true %}
                 <li class="uk-visible@m"><a 
                     href="{% if item.href %}{{ item.href }}{% else %}#item{{ forloop.index }}{% endif %}"
-                    uk-scroll="offset: 40;">
+                    uk-scroll="offset: 50;">
                     {{ item.menu }}</a></li>
                 {% endif %}
             {% endfor %}
-            <li><a href="#" uk-toggle="target: #offcanvas-reveal" uk-icon="icon: menu; ratio: 1.5"></a> </li>
+            <li><a href="#" class="uk-navbar-toggle" uk-toggle="target: #offcanvas-reveal" uk-navbar-toggle-icon></a> </li>
         </ul>
     </div>
 </nav>
@@ -29,13 +28,13 @@ true">
     <div class="uk-offcanvas-bar">
 
         <button class="uk-offcanvas-close" type="button" uk-close></button>
-
-        <ul class="uk-list">
+        <ul class="uk-nav uk-nav-default">
             {% for item in site.homepage_sections %}
-            <li><h4><a class="uk-link-text"
+            <li><a class="uk-link-text"
                 href="{% if item.href %}{{ item.href }}{% else %}#item{{ forloop.index }}{% endif %}"
-                uk-scroll="offset: 40;"
-                uk-toggle="target: #offcanvas-reveal">{{ item.menu }}</a></h4></li>
+                uk-scroll="offset: 50;"
+                uk-toggle="target: #offcanvas-reveal">{{ item.menu }}</a>
+            </li>
             {% endfor %}
         </ul>
    </div>
@@ -46,6 +45,6 @@ true">
     {% raw %}
     <div class="webData uk-text-large">{{meta.parts}}&#8239;TN – {{meta.fix}}&#8239;CHF – {{meta.pkm}}&#8239;CHF/KM</div>
     {% endraw %}
-    <a href="#item1" class="scroll-down-link scroll-down-arrow" uk-scroll="offset: 80;"></a>
+    <a href="#item1" class="scroll-down-link scroll-down-arrow" uk-scroll="offset: 90;"></a>
     </div>
 </div>
