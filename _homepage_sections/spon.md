@@ -1,7 +1,7 @@
 ---
 menu: Sponsor:innen-Such-Tipps
 heading: Sponsor:innen-Such-Tipps
-id: spon-tip
+key: spon-tip
 order: 8
 ---
 

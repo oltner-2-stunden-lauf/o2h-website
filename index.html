@@ -5,7 +5,7 @@ layout: plain
 {% for item in site.homepage_sections %}
     <div class="uk-grid-collapse uk-flex-center@s uk-margin-large-bottom" uk-grid>
         <div class="uk-width-1-1@s uk-width-2-3@m">
-            <h2 id="{% if item.id %}{{item.id}}{% else %}item{{ forloop.index }}{% endif %}">{{ item.heading }}</h2>
+            <h2 id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}">{{ item.heading }}</h2>
             {% if item.content %}
                 <div class="sh-hyphen{% if item.columns %} uk-column-1-2@m{% endif %}">
                 {{ item.content | markdownify }}
