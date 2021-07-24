@@ -67,7 +67,7 @@ navbar: true
     </div>
 {% endraw %}
 </div>
-<div class="uk-padding-small uk-text-small uk-text-muted">Es werden nur Teilnehmende angezeigt die in ihrer Anmeldung der Publikation zugestimmt haben.</div>
+<div class="uk-padding-small uk-text-small uk-text-muted">Es werden nur Teilnehmende angezeigt, die in ihrer Anmeldung der Publikation zugestimmt haben.</div>
     </div>
 </div>
 
@@ -78,3 +78,5 @@ UIkit.util.on('#tn-filter','beforeFilter',() => {
     UIkit.dropdown('#tn-sorter-dropdown').hide(false);
 });
 </script>
+
+
