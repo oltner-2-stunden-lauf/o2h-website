@@ -62,7 +62,7 @@ Wenn du bei deiner Anmeldung das Einverständnis gibst, dass dein Name auf unser
 </div>
 
 <script>
-UIkit.util.on('#tn-filter','afterFilter',() => {
+UIkit.util.on('#tn-filter','beforeFilter',() => {
     UIkit.dropdown('#tn-filter-dropdown').hide(false);
     UIkit.dropdown('#tn-sorter-dropdown').hide(false);
 });

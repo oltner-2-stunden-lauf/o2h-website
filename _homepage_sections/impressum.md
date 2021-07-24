@@ -3,7 +3,7 @@ menu: Impressum
 heading: Impressum
 order: 99
 ---
-Der 2-Stunden-Lauf wird von den Mitgliedern des Vereins Oltner 2-Stunden-Lauf organisiert und durchgeführt. Dass alle Sponsor:innen-Gelder direkt den jeweiligen Projekten zukommen können, wird durch den ehrenamtlichen Einsatz der Vereinsmitglieder und grosszügige Beiträge unserer Anlasssponsor:innen.
+Der 2-Stunden-Lauf wird von den Mitgliedern des Vereins Oltner 2-Stunden-Lauf organisiert und durchgeführt. Dass alle Sponsorgelder direkt den jeweiligen Projekten zukommen können, wird durch den ehrenamtlichen Einsatz der Vereinsmitglieder und grosszügige Beiträge unserer Anlasssponsor:innen.
 
 
 <div class="uk-column-1-2@m">

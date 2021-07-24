@@ -1,13 +1,14 @@
 ---
 menu: Sponsor:innen-Such-Tipps
 heading: Sponsor:innen-Such-Tipps
+id: spon-tip
 order: 8
 ---
 
 
 <div class="uk-child-width-1-1 uk-child-width-1-2@s" uk-grid>
 <div>
-<p>Zu wissen, dass jeder deiner Kilometer X Franken wert ist, ist ein grosser Motivator. Das Laufen ist nur noch halb so anstrengend. Hier ein paar Tipps, wie du zu Sponsoren kommen kannst.</p>
+<p>Zu wissen, dass jeder deiner Kilometer X Franken wert ist, ist ein grosser Motivator. Das Laufen ist nur noch halb so anstrengend. Hier ein paar Tipps, wie du Sponsor:innen finden kannst.</p>
 
 
 <p>Erstelle eine Liste mit möglichen Sponsoren ...</p>
@@ -49,7 +50,7 @@ falsche Wort ist, dieses Jahr kann man nämlich auch mit dem XXX mitmachen. Dank
 <p>Es wäre super, wenn du mich und damit die beiden Projekte unterstützen würdest. Wie gesagt, bin mit dem XXX unterwegs. In 2 Stunden werde ich ca. XXX Kilometer zurückzulegen.</p>
 
 
-<p>Du kannst Deinen Sponsor:innen-Beitrag direkt über meinen persönlichen Sponsoringlink https://o2h.ch/o2h/XXXX zusagen. Du erhältst dann nach dem Lauf eine Rechnung.</p>
+<p>Du kannst Deinen Sponsorbeitrag direkt über meinen persönlichen Sponsoringlink https://o2h.ch/o2h/XXXX zusagen. Du erhältst dann nach dem Lauf eine Rechnung.</p>
 
 
 <p>Liebe Grüsse<br/>

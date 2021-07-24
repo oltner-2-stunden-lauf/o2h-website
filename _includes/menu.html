@@ -14,7 +14,7 @@
             {% for item in site.homepage_sections %}
                 {% if item.navbar == true %}
                 <li class="uk-visible@m"><a 
-                    href="{% if item.href %}{{ item.href }}{% else %}#item{{ forloop.index }}{% endif %}"
+                    href="{% if item.id %}{{item.id}}{% else %}item{{ forloop.index }}{% endif %}"
                     uk-scroll="offset: 50;">
                     {{ item.menu }}</a></li>
                 {% endif %}
