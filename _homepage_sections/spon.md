@@ -46,14 +46,18 @@ order: 8
 2/3 gehen an ein Horyzon-Bildungsprojekt in Kolumbien</p>
 
 
-<p>Es wäre super, wenn du mich und damit die beiden Projekte unterstützen würdest. Wie gesagt, bin mit dem XXX unterwegs. In 2 Stunden werde ich ca. XXX Kilometer zurückzulegen.</p>
+<p>Es würde mich sehr freuen, wenn Du mich und damit die beiden Projekte unterstützen würdest. Wie gesagt, bin mit dem XXX unterwegs. In 2 Stunden werde ich ca. XXX Kilometer zurückzulegen.</p>
+
 
 <p>Du kannst Deinen Sponsorbeitrag direkt über meinen persönlichen Sponsoringlink https://o2h.ch/o2h/XXXX zusagen. Du erhältst nach dem Lauf eine Rechnung.</p>
+
 
 <p>Liebe Grüsse<br/>
 XXX</p>
 
+
 <p>P.S.: Auf https://www.o2h.ch/ sind die beiden Projekte und auch der 2-Stunden-Lauf beschrieben.</p>
+
 
 </div></div>
 </div>
