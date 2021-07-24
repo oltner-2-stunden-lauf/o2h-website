@@ -3,9 +3,13 @@ layout: plain
 ---
 <div id="content" class="uk-container">
 {% for item in site.homepage_sections %}
+    {% if item.toggle %}{% else %}
     <div class="uk-grid-collapse uk-flex-center@s uk-margin-large-bottom" uk-grid>
-        <div class="uk-width-1-1@s uk-width-2-3@m">
+        <div class="uk-width-1-1">
+    {% endif %}
+            {% if item.heading %}
             <h2 id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}">{{ item.heading }}</h2>
+            {% endif %}
             {% if item.content %}
                 <div class="sh-hyphen{% if item.columns %} uk-column-1-2@m{% endif %}">
                 {{ item.content | markdownify }}
@@ -47,8 +51,10 @@ layout: plain
                 </tbody>
             </table>
             {% endif %}
+    {% if item.toggle %}{% else %}        
         </div>
     </div>
+    {% endif %}
 {% endfor %}
 </div>
 <script src="/o2h/js/handlebars.js"></script>

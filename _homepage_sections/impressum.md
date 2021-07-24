@@ -3,7 +3,7 @@ menu: Impressum
 heading: Impressum
 order: 99
 ---
-Der 2-Stunden-Lauf wird von den Mitgliedern des Vereins Oltner 2-Stunden-Lauf organisiert und durchgeführt. Dass alle Sponsorgelder direkt den jeweiligen Projekten zukommen können, wird durch den ehrenamtlichen Einsatz der Vereinsmitglieder und grosszügige Beiträge unserer Anlasssponsor:innen.
+Der 2-Stunden-Lauf wird von den Mitgliedern des Vereins Oltner 2-Stunden-Lauf organisiert und durchgeführt. Dass alle Sponsorgelder direkt den jeweiligen Projekten zugutekommen können, wird durch den ehrenamtlichen Einsatz der Vereinsmitglieder und grosszügige Beiträge unserer Anlasssponsor:innen ermöglicht.
 
 
 <div class="uk-column-1-2@m">
@@ -20,7 +20,7 @@ Der 2-Stunden-Lauf wird von den Mitgliedern des Vereins Oltner 2-Stunden-Lauf or
       Doris Oetiker, Verpflegung;
       Nadia Rhiner-Niggli, Verpflegung;
       <a href="mailto:leitung@o2h.ch">Klaus Kaiser</a>, Leitung;
-      <a href="mailto:anmeldung@o2h.ch">Tobi Oetiker</a>, Informatik, Graphik, Anmeldungen, Resultate.</p>
+      <a href="mailto:anmeldung@o2h.ch">Tobi Oetiker</a>, Informatik, Grafik, Anmeldungen, Resultate.</p>
 
 
 <h4>Hauptsponsoren</h4>
@@ -30,5 +30,6 @@ Der 2-Stunden-Lauf wird von den Mitgliedern des Vereins Oltner 2-Stunden-Lauf or
 <h4>Medienpartner</h4>
 
 
-<p>youcinema, Oltner Tagblatt, Dietschi Print &amp; Design, Stadtanzeiger Olten, Niederämter Anzeiger, Anzeiger Thal Gäu Olten.</p>
+<p>youcinema, Oltner Tagblatt, Dietschi Print &amp; Design AG, Stadtanzeiger Olten, Niederämter Anzeiger, Anzeiger Thal Gäu Olten.</p>
 </div>
+

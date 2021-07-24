@@ -13,9 +13,9 @@
         <ul class="uk-navbar-nav">
             {% for item in site.homepage_sections %}
                 {% if item.navbar == true %}
-                <li class="uk-visible@m"><a 
+                <li class="uk-visible@s"><a 
                     href="#{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}"
-                    uk-scroll="offset: 50;">
+                    {% if item.toggle %}uk-toggle{% else %}uk-scroll="offset: 50;"{% endif %}>
                     {{ item.menu }}</a></li>
                 {% endif %}
             {% endfor %}
@@ -31,9 +31,15 @@ true">
         <ul class="uk-nav uk-nav-default">
             {% for item in site.homepage_sections %}
             <li><a class="uk-link-text"
-                href="#{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}"
-                uk-scroll="offset: 50;"
-                uk-toggle="target: #offcanvas-reveal">{{ item.menu }}</a>
+                {% if item.toggle %}
+                    href="#"
+                    uk-toggle="target: #{{item.key}};"
+                {% else %}
+                    href="#{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}"
+                    uk-scroll="offset: 50;"
+                    uk-toggle="target: #offcanvas-reveal;"
+                {% endif %}
+                >{{ item.menu }}</a>
             </li>
             {% endfor %}
         </ul>

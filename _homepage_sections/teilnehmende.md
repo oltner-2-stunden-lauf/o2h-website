@@ -1,13 +1,17 @@
 ---
 menu: Teilnehmende
-heading: Diese Leute haben sich schon angemeldet
 order: 6
+key: tn-modal
+toggle: true
+navbar: true
 ---
-Wenn du bei deiner Anmeldung das Einverständnis gibst, dass dein Name auf unserer Homepage publiziert wird, dann erscheinst du in der untenstehenden Liste:
-
+<div id="tn-modal" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog">
+    <h2 class="uk-padding-small uk-padding-remove-bottom uk-modal-title">Teilnehmer:innen</h2>
+        <button class="uk-modal-close-full" type="button" uk-close></button>
 <div class="webData" id="tn-filter" uk-filter="target: .js-filter">
 {% raw %}
-    <ul class="uk-subnav uk-subnav-pill" uk-margin>
+    <ul class="uk-padding-small uk-padding-remove-vertical uk-subnav uk-subnav-pill">
         <li>
             <a href="#">Filter</a>
             <div id="tn-filter-dropdown" uk-dropdown>
@@ -37,8 +41,10 @@ Wenn du bei deiner Anmeldung das Einverständnis gibst, dass dein Name auf unser
             </div>
         </li>
         <li class="uk-active" uk-filter-control><a  uk-icon="thumbnails" href="#"></a></li>
-    </ul>    
-    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@m uk-grid-small" uk-grid="masonry: true">
+    </ul> 
+    <div uk-overflow-auto class="uk-padding-small">
+    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@s
+    uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small" uk-grid="masonry: true">
     {{#each part}}
         <li data-group="{{grop}}" 
             data-fix="{{fix}}" 
@@ -58,8 +64,13 @@ Wenn du bei deiner Anmeldung das Einverständnis gibst, dass dein Name auf unser
         </li>
     {{/each}}
     </ul>
+    </div>
 {% endraw %}
 </div>
+<div class="uk-padding-small uk-text-small uk-text-muted">Es werden nur Teilnehmende angezeigt die in ihrer Anmeldung der Publikation zugestimmt haben.</div>
+    </div>
+</div>
+
 
 <script>
 UIkit.util.on('#tn-filter','beforeFilter',() => {
