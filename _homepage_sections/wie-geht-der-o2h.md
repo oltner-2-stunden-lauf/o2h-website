@@ -15,7 +15,7 @@ cards:
         Wenn du beim Oltner 2-Stunden-Lauf mitmachen willst, dann ist es ganz wichtig, dass du dich <a href="/o2h#lang=de">anmeldest</a>. Im Anmeldesystem kannst du angeben, welches Fortbewegungsmittel du nutzen willst oder ob du am Lauf in der Oltner Innenstadt teilnehmen wirst. Du kannst dir das Lauf-Shirt bestellen und – ganz wichtig – : Du kannst deine Sponsoring-Zusagen verwalten.
     - title: Was zählt, ist die Distanz
       body: |
-        Bei den meisten Läufen geht es darum, eine bestimmte Distanz in möglichst kurzer Zeit zurückzulegen. Der 2-Stunden-Lauf ist es umgekehrt. Es geht darum, innerhalb von zwei Stunden eine möglichst grosse Distanz, respektive beim Lauf in der Oltner Innenstadt, möglichst viele Runden zurückzulegen. 
+        Bei den meisten Läufen geht es darum, eine bestimmte Distanz in möglichst kurzer Zeit zurückzulegen. Beim 2-Stunden-Lauf ist es umgekehrt. Es geht darum, innerhalb von zwei Stunden eine möglichst grosse Distanz, respektive beim Lauf in der Oltner Innenstadt, möglichst viele Runden zurückzulegen. 
 
 ---
 Der Oltner 2-Stunden-Lauf ist ein Sponsorenlauf, bei dem es darum geht, die Finanzierung von Non-Profit-Projekten sicherzustellen. Jedes Jahr wählt das Lauf-OK ein lokales und ein internationales Projekt aus, das mit einem respektive zwei Dritteln der Sponsoreneinnahmen unterstützt wird. 
