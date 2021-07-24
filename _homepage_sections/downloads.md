@@ -1,7 +1,7 @@
 ---
 menu: Downloads
 heading: Downloads
-order: 99
+order: 98
 ---
 * [Sponsorliste PDF](assets/sponsorliste-2021.pdf) (Sponsoren bitte online erfassen)
 * [Postkarte mit Logo](assets/postkarte-2021.pdf)

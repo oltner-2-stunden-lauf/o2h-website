@@ -1,7 +1,7 @@
 ---
 menu: Gruppenanmeldung
 heading: Gruppenanmeldung
-order: 7
+order: 6
 ---
 Wer als Gruppe am Oltner 2-Stunden-Lauf teilnimmt, kann 33&#x202F;% des von den
 Gruppenmitgliedern erlaufenen Geldes für ein eigenes Projekt einsetzen. Um als Gruppe am Lauf teilzunehmen, musst du in einem ersten Schritt die Gruppe selbst im Anmeldesystem registrieren. Das geht so:
