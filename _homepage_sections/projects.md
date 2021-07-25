@@ -9,7 +9,7 @@ cards:
       body: |
         Bildung für sozial und wirtschaftlich benachteiligte Jugendliche in Armenquartieren Kolumbiens. Mit dem Horyzon-Programm unterstützt YMCA Kolumbien die Jugendlichen in der Entwicklung von konstruktiven, selbstbestimmten und friedlichen Lebensperspektiven.
 
-        Das Programm richtet sich an sozial und wirtschaftlich benachteiligte Jugendliche in Armenquartieren Kolumbiens. Es soll verhindern, dasssich die Jugendlichen bewaffneten Gruppierungen anschliessen oder von ihnen zwangsrekrutiert werden. Es stärkt ihre Kompetenzen, damit sie sich zu Friedensförderer:innen entwickeln können.
+        Das Programm richtet sich an sozial und wirtschaftlich benachteiligte Jugendliche in Armenquartieren Kolumbiens. Es soll verhindern, dass sich die Jugendlichen bewaffneten Gruppierungen anschliessen oder von ihnen zwangsrekrutiert werden. Die Jugendlichen stärken ihre Kompetenzen, sich in der Friedensförderung engagieren zu können.
 
         Das Projekt wird mit zwei Dritteln des Erlöses des Oltner 2-Stunden-Laufs unterstützt. Details zum Projekt gibt es auf der <a target="_new" href="https://horyzon.ch/de/projekte-und-themen/engagement-weltweit/kolumbien/">Website von Horyzon</a>.
     - title: Neuer Stall im Wildpark Mühletäli
@@ -24,3 +24,5 @@ cards:
         Ein Drittel des Lauferlöses geht an den Verein Wildpark Mühletähli.  Weitere Informationen sind auf der <a target="_new" href="https://www.wildpark-muehletaeli.ch/">Website</a> des Vereins zu finden.
 ---
 Der 2-Stunden-Lauf unterstützt jedes Jahr ein lokales und ein internationales gemeinnütziges Projekt.
+
+

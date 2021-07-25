@@ -24,7 +24,9 @@ navbar: true
                 {{/each}}
                     <li class="uk-nav-header">Kategorie</li>
                 {{#each transport}}
+                    {{#if inuse }}
                     <li uk-filter-control="filter: [data-transport='{{id}}'];"><a href="#">{{desc}}</a></li>
+                    {{/if}}
                 {{/each}}
                 </ul>
             </div>
