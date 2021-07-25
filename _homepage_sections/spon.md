@@ -35,8 +35,7 @@ order: 8
 
 <p>Liebe XXX</p>
 
-
-<p>Ich laufe/radle/skate/... dieses Jahr beim Oltner 2-Stunden-Lauf mit. Wobei "Lauf" stimmt dieses Jahr nämlich nicht mehr. Es sind ganz viele verschiedene Fortbewegungsmittel erlaubt. Dank der TrackTok-App kann man da teilnehmen, wo es einem am besten passt. Sofern es die Corona-Situation zulässt, wird auch wieder ein klassischer Lauf in der Oltner Innenstadt stattfinden.</p>
+<p>Ich mache dieses Jahr beim Oltner 2-Stunden-Lauf mit. Wobei "Lauf" stimmt eigentlich nicht mehr. Es sind ganz viele verschiedene Fortbewegungsmittel erlaubt. Dank der TrackTok-App kann man von überal her teilnehmen, woimmer es einem am besten passt. Sofern es die Corona-Situation zulässt, wird auch wieder ein klassischer Lauf in der Oltner Innenstadt stattfinden.</p>
 
 
 <p>Neben der sportlichen Herausforderung geht es darum, Geld für gemeinnützige Projekte zu sammeln.</p>
@@ -46,8 +45,7 @@ order: 8
 2/3 gehen an ein Horyzon-Bildungsprojekt in Kolumbien</p>
 
 
-<p>Es würde mich sehr freuen, wenn Du mich und damit die beiden Projekte unterstützen würdest. Wie gesagt, bin mit dem XXX unterwegs. In 2 Stunden werde ich ca. XXX Kilometer zurückzulegen.</p>
-
+<p>Es würde mich sehr freuen, wenn Du mich und damit die beiden Projekte unterstützen würdest. Ich bin mit dem XXX unterwegs. In 2 Stunden werde ich ca. XXX Kilometer zurückzulegen.</p>
 
 <p>Du kannst Deinen Sponsorbeitrag direkt über meinen persönlichen Sponsoringlink https://o2h.ch/o2h/XXXX zusagen. Du erhältst nach dem Lauf eine Rechnung.</p>
 

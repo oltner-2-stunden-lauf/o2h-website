@@ -10,7 +10,7 @@ cards:
     - title: Laufen und Rollen
       body: |
         Beim dezentralen «Lauf» kann dieses Jahr das
-        Fortbewegungsmittel aus einer breiten Palette ausgewählt werden. Vom klassischen Laufen über das Trottinett oder Velo bis zum E-Bike.
+        Fortbewegungsmittel aus einer <a href="#transport-popup" uk-toggle>breiten Palette</a> ausgewählt werden. Vom klassischen Laufen über das Trottinett oder Velo bis zum E-Bike.
     - title: Startgeld erst ab 16
       body: |
         Neu erheben wir das Startgeld von 10 Franken erst ab Jahrgang 2005, so dass die meisten Schulklassen und Jugendorganisationen gratis am Lauf teilnehmen können.

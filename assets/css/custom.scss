@@ -47,6 +47,10 @@ footer {
         color: #000;
     }
 
+    .uk-list li {
+        break-inside: avoid-column;
+    }
+
     .scroll-down-link {
         cursor: pointer;
         height: 60px;

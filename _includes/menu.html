@@ -30,6 +30,7 @@ true">
         <button class="uk-offcanvas-close" type="button" uk-close></button>
         <ul class="uk-nav uk-nav-default">
             {% for item in site.homepage_sections %}
+            {% if item.menu %}
             <li><a class="uk-link-text"
                 {% if item.toggle %}
                     href="#"
@@ -41,6 +42,7 @@ true">
                 {% endif %}
                 >{{ item.menu }}</a>
             </li>
+            {% endif %}
             {% endfor %}
         </ul>
    </div>

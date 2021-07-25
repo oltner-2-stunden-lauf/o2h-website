@@ -9,3 +9,6 @@ exclude:
 collections:
   homepage_sections:
     sort_by: order
+  photos:
+    output: true
+    permalink: /assets/photos/:name
