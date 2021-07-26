@@ -1,5 +1,5 @@
 ---
-menu: Teilnehmende
+menu: Teilnehmer:innen
 order: 6
 key: tn-modal
 toggle: true
@@ -19,13 +19,13 @@ navbar: true
                     <li class="uk-nav-header">Gruppe</li>
                 {{#each grop}}
                 {{#if pub_part}}
-                    <li uk-filter-control="filter: [data-group='{{name}}'];"><a href="#">{{name}}</a></li>
+                    <li uk-filter-control="filter: [data-group='{{name}}'];group: group;"><a href="#">{{name}}</a></li>
                 {{/if}}
                 {{/each}}
                     <li class="uk-nav-header">Kategorie</li>
                 {{#each transport}}
                     {{#if inuse }}
-                    <li uk-filter-control="filter: [data-transport='{{id}}'];"><a href="#">{{desc}}</a></li>
+                    <li uk-filter-control="filter: [data-transport='{{id}}'];group: transport;"><a href="#">{{desc}}</a></li>
                     {{/if}}
                 {{/each}}
                 </ul>
@@ -35,10 +35,10 @@ navbar: true
             <a href="#">Sort</a>
             <div id="tn-sorter-dropdown" uk-dropdown>
                 <ul class="uk-nav uk-dropdown-nav">
-                    <li uk-filter-control="sort: data-given"><a href="#">Vorname</a></li>
-                    <li uk-filter-control="sort: data-family"><a href="#">Nachname</a></li>
-                    <li uk-filter-control="sort: data-fix; order: desc;"><a href="#">Sponsorzusagen Fix</a></li>
-                    <li uk-filter-control="sort: data-pkm; order: desc;"><a href="#">Sponsorzusagen pro Km</a></li>
+                    <li uk-filter-control="sort: data-given;group: sort;"><a href="#">Vorname</a></li>
+                    <li uk-filter-control="sort: data-family;group: sort;"><a href="#">Nachname</a></li>
+                    <li uk-filter-control="sort: data-fix; order: desc;group: sort;"><a href="#">Sponsorzusagen Fix</a></li>
+                    <li uk-filter-control="sort: data-pkm; order: desc;group: sort;"><a href="#">Sponsorzusagen pro Km</a></li>
                 </ul>
             </div>
         </li>

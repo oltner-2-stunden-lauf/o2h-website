@@ -9,7 +9,7 @@ cards:
         Vor dem Lauf suchst du dir Sponsor:innen, welche dir pro Kilometer, den du am Lauf zurücklegst, einen bestimmten Betrag zusagen. Sponsor:innen findest du unter deinen Verwandten, Freunden, Arbeitskolleginnen etc. Oft sind auch Firmen bereit, Läufer:innen zu sponsern. Der Erlös des Laufs kommt den beschriebenen Projekten zugute.
     - title: Laufen und Rollen
       body: |
-        Der Oltner 2-Stunden-Lauf findet einerseits als traditioneller Lauf-Event in der Oltner Innenstadt statt. Gestartet wird dabei am 18. September 2021 um 15 Uhr auf der Kirchgasse. Andererseits kann man vom 11. bis am 18. September auch am dezentralen «Lauf» teilnehmen. Neben dem Laufen ist eine <a href="#transport-popup" uk-toggle>breite Palette von Fahrzeugen</a> zugelassen. Vom Trottinett übers Velo bis zum Rollstuhl.
+        Der Oltner 2-Stunden-Lauf findet einerseits als traditioneller Lauf-Event in der Oltner Innenstadt statt. Gestartet wird dabei am 18. September 2021 um 15 Uhr auf der Kirchgasse. Andererseits kann man vom 11. bis am 18. September auch am dezentralen «Lauf» teilnehmen. Neben dem Laufen ist eine <a href="#transport-popup" uk-toggle>breite Palette</a> von Fortbewegungsmitteln zugelassen. Vom Trottinett übers Velo bis zum Rollstuhl.
     - title: Online-Anmeldung
       body: |
         Wenn du beim Oltner 2-Stunden-Lauf mitmachen willst, dann ist es ganz wichtig, dass du dich <a href="/o2h#lang=de">anmeldest</a>. Im Anmeldesystem kannst du angeben, welches Fortbewegungsmittel du nutzen willst oder ob du am Lauf in der Oltner Innenstadt teilnehmen wirst. Du kannst dir das Lauf-Shirt bestellen und – ganz wichtig – : Du kannst deine Sponsoring-Zusagen verwalten.

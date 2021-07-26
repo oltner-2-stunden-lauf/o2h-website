@@ -22,14 +22,13 @@ Der 2-Stunden-Lauf wird von den Mitgliedern des Vereins Oltner 2-Stunden-Lauf or
       <a href="mailto:leitung@o2h.ch">Klaus Kaiser</a>, Leitung;
       <a href="mailto:anmeldung@o2h.ch">Tobi Oetiker</a>, Informatik, Grafik, Anmeldungen, Resultate.</p>
 
-
-<h4>Hauptsponsoren</h4>
+<div class="keep-together">
+<h4>Hauptsponsor:innen</h4>
 <p>a.en AG, Migros Aare, Suva, Cafe Grogg, OETIKER+PARTNER AG, Marti AG. </p>
 
 
-<h4>Medienpartner</h4>
-
-
+<h4>Medienpartner:innen</h4>
 <p>youcinema, Oltner Tagblatt, Dietschi Print &amp; Design AG, Stadtanzeiger Olten, Niederämter Anzeiger, Anzeiger Thal Gäu Olten.</p>
+</div>
 </div>
 

@@ -2,9 +2,9 @@
 order: 8
 ---
 {% assign photos = site.collections | where: "label", "photos" | first  %}
-<div uk-slider="autoplay: true;autoplay-interval: 4000;index: 30;center: true" 
-    class="uk-position-relative uk-visible-toggle uk-light uk-margin-bottom uk-margin-bottom">
-    <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-4@m" uk-grid uk-lightbox="animation: fade">
+<div uk-slider="autoplay: true;autoplay-interval: 3000;index: 30;center: true" 
+    class="uk-position-relative uk-visible-toggle uk-margin-bottom uk-margin-bottom">
+    <ul class="uk-slider-items uk-child-width-1-2@s uk-child-width-1-4@m  uk-grid-small" uk-grid uk-lightbox="animation: fade">
         {% assign photos = site.collections | where: "label", "photos" | first  %}
         {% for photo in photos.files %}
         <li><a class="uk-inline" href="assets/photos/{{photo.name}}">

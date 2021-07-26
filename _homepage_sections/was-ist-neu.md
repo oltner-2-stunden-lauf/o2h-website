@@ -16,6 +16,6 @@ cards:
         Neu erheben wir das Startgeld von 10 Franken erst ab Jahrgang 2005, so dass die meisten Schulklassen und Jugendorganisationen gratis am Lauf teilnehmen können.
     - title: T-Shirt auf Bestellung
       body: |
-        Auch dieses Jahr gibt es ein Lauf-Shirt; wir geben es jedoch nicht mehr gratis ab. Es kann bei der Anmeldung für 15 Franken bestellt werden.
+        Auch dieses Jahr gibt es ein Lauf-Shirt. Es kann bei der Anmeldung für 15 Franken bestellt werden.
 ---
 Der 34. Oltner 2-Stunden-Lauf bringt noch mehr Möglichkeiten, genau auf diese Art am Lauf teilzunehmen, die dir am besten entspricht. 

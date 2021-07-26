@@ -47,9 +47,7 @@ footer {
         color: #000;
     }
 
-    .uk-list li {
-        break-inside: avoid-column;
-    }
+    
 
     .scroll-down-link {
         cursor: pointer;
@@ -88,6 +86,11 @@ footer {
         }
     }
 
+}
+
+.keep-together, 
+.uk-list li {
+    break-inside: avoid-column;
 }
 
 .uk-navbar-container.uk-sticky.uk-active img {

@@ -22,7 +22,7 @@ Lauf an (ohne in einer Gruppe zu sein).</li>
 
 </div>
 
-Zur <a href="#grp-modal" uk-toggle>List der angemeldeten Gruppen</a>. 
+Zur <a href="#grp-modal" uk-toggle>Liste der angemeldeten Gruppen</a>. 
 
 <div id="grp-modal" class="uk-modal-container" uk-modal>
     <div class="uk-modal-dialog uk-modal-body">
