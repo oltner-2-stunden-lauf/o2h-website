@@ -37,8 +37,8 @@ navbar: true
                 <ul class="uk-nav uk-dropdown-nav">
                     <li uk-filter-control="sort: data-given;group: sort;"><a href="#">Vorname</a></li>
                     <li uk-filter-control="sort: data-family;group: sort;"><a href="#">Nachname</a></li>
-                    <li uk-filter-control="sort: data-fix; order: desc;group: sort;"><a href="#">Sponsorzusagen Fix</a></li>
-                    <li uk-filter-control="sort: data-pkm; order: desc;group: sort;"><a href="#">Sponsorzusagen pro Km</a></li>
+                    <li uk-filter-control="sort: data-fix; order: desc;group: sort;filter: [data-hasfix=y]"><a href="#">Sponsorzusagen Fix</a></li>
+                    <li uk-filter-control="sort: data-pkm; order: desc;group: sort;filter: [data-haspkm=y]"><a href="#">Sponsorzusagen pro Km</a></li>
                 </ul>
             </div>
         </li>
@@ -49,7 +49,8 @@ navbar: true
     uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small" uk-grid="masonry: true">
     {{#each part}}
         <li data-group="{{grop}}" 
-            data-fix="{{fix}}" 
+            data-fix="{{fix}}" data-hasfix="{{#if fix}}y{{/if}}"
+            data-pkm="{{pkm}}" data-haspkm="{{#if pkm}}y{{/if}}"
             data-given="{{given}}" 
             data-family="{{family}}"
             data-transport="{{transport_id}}">
