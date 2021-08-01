@@ -8,7 +8,7 @@ layout: plain
         <div class="uk-width-1-1">
     {% endif %}
             {% if item.heading %}
-            <h2 id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}">{{ item.heading }}</h2>
+            <h2 class="uk-heading-small" id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}">{{ item.heading }}</h2>
             {% endif %}
             {% if item.content %}
                 <div class="sh-hyphen{% if item.columns %} uk-column-1-2@s{% endif %}">

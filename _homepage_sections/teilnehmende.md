@@ -45,7 +45,7 @@ navbar: true
         <li class="uk-active" uk-filter-control><a  uk-icon="thumbnails" href="#"></a></li>
     </ul> 
     <div uk-overflow-auto class="uk-padding-small">
-    <ul class="js-filter uk-child-width-1-2 uk-child-width-1-3@s
+    <ul class="js-filter uk-child-width-1-1 uk-child-width-1-3@s
     uk-child-width-1-4@m uk-child-width-1-5@l uk-grid-small" uk-grid="masonry: true">
     {{#each part}}
         <li data-group="{{grop}}" 

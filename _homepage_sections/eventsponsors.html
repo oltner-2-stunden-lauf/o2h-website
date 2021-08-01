@@ -1,0 +1,92 @@
+---
+menu: Anlasssponsor:innen
+heading: Anlasssponsor:innen
+order: 45
+key: asp
+sp:
+    - title: Hauptsponsoren
+      class: uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m 
+      data:
+        - name: aen
+          href: https://aen.ch
+        - name: heuberger
+          href: https://www.spitalpark.ch/klinik/heuberger-augenklinik-olten/
+        - name: mcdonalds
+          href: https://www.instagram.com/mcdonalds_mittelland/
+        - name: migros
+          href: https://migros.ch
+        - name: raiffeisen
+          href: https://raiffeisen.ch
+        - name: suva
+          href: https://suva.ch
+        - name: archiwork
+          href: https://archiwork.ch
+        - name: fischer
+          href: https://dfischer.ch
+        - name: grogg
+          href: https://cafegrogg.ch
+        - name: marti
+          href: https://marti-ag.com
+        - name: op
+          href: https://oetiker.ch
+        - name: roomdesign
+          href: https://roomdesign.ch
+    - title: Organisationspartner
+      class: uk-child-width-1-2 uk-child-width-1-4@s uk-child-width-1-5@m
+      data:
+        - name: kiwanis
+          href: https://olten.kcdb.net/
+        - name: mueues
+          href: https://mueues.ch
+        - name: horyzon
+          href: https://horyzon.ch
+        - name: wildpark
+          href: https://www.wildpark-muehletaeli.ch/
+        - name: olten
+          href: https://olten.ch
+    - title: Medienpartner
+      class: uk-child-width-1-3 uk-child-width-1-5@s uk-child-width-1-6@m
+      data:
+        - name: anzeiger
+          href: https://anzeigertgo.ch/
+        - name: dietschi
+          href: https://www.dietschi-pd.ch/
+        - name: niederaemter
+          href: http://www.niederaemter-anzeiger.ch/
+        - name: oltnertagblatt
+          href: https://oltner-tagblatt.ch
+        - name: stadtanzeiger
+          href: https://www.stadtanzeiger-olten.ch/
+        - name: youcinema
+          href: https://youcinema.ch
+    - title: Platzsponsoren
+      class: uk-child-width-1-3 uk-child-width-1-5@s uk-child-width-1-6@m
+      data:
+        - name: furrer
+          href: https://www.furrergmbh.ch/
+        - name: jaeggi
+          href: https://www.holzbaujaeggi.ch/
+        - name: move
+          href: https://www.physiotherapiemove.ch/
+        - name: wohntraeumli
+          href: https://www.wohnträum.li
+---
+{% for sec in page.sp %}
+<div class="uk-text-large uk-margin-medium-bottom uk-margin-large-top">{{sec.title}}</div>
+<div class="uk-flex uk-flex-center {{sec.class}} uk-grid-large" uk-grid>
+    {% for sp in sec.data %}
+    {% capture svg %}
+    {% include_relative 
+        {{ sp.name | prepend: "logos/" | append: ".svg" }}
+     %}
+    {% endcapture %}
+    {% assign svgsplit = svg | split: '<svg' %}
+    {% assign svgpart = svgsplit[1] | prepend: "<svg " | base64_encode %}
+    <div class=""><a href="{{sp.href}}" target="_{{sp.name}}">
+        <div class="uk-background-contain uk-panel uk-flex uk-flex-center uk-flex-middle" style="background-image: url(data:image/svg+xml;base64,{{svgpart}});">
+            <canvas style="width: 100%;" width="300" height="150"></canvas>
+        </div></a>
+    </div>
+  {% endfor %}
+</div>
+{% endfor %}
