@@ -66,9 +66,8 @@ true">
                 UIkit.modal(wlh).show();
             }
             else {
-                wlh.scrollIntoView({
-                    offset: 150,
-                    behavior: "smooth"
+                UIkit.scroll(wlh,{
+                    offset: 150
                 });
             }
         }
