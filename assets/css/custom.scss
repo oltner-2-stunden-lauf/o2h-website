@@ -1,11 +1,13 @@
 ---
 --- 
-$sal-color-dark: #1b3764;
-
 @import "variables-theme.scss";
 
+footer a {
+    color: #fff;
+}
+
 footer {
-    background-color: $sal-color-dark;
+    background-color: #0045b3;
     width: 100%;
     float: left;
 }
@@ -30,7 +32,7 @@ footer {
     //align-items: center;
     height: 100vh;
     text-align: center;
-    color: #0045b2;
+    color: $base-heading-color;
 
     img {
         padding-top: 7vh;

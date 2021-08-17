@@ -24,7 +24,7 @@ ma:
       f: Verpflegung
     - n: Nadia Rhiner-Niggli
       f: Verpflegung
-    - n: Klaus Kaier
+    - n: Klaus Kaiser
       f: Leitung
     - n: Tobi Oetiker
       f: Grafik, Programmierung, Konzeption
