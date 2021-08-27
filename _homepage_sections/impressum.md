@@ -26,6 +26,8 @@ ma:
       f: Verpflegung
     - n: Klaus Kaiser
       f: Leitung
+    - n: Manuel Oetiker
+      f: Platzorganisation
     - n: Tobi Oetiker
       f: Grafik, Programmierung, Konzeption
       c: anmeldung@o2h.ch
