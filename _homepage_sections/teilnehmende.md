@@ -5,11 +5,13 @@ key: tn-modal
 toggle: true
 navbar: true
 ---
-<div id="tn-modal" class="uk-modal-container" uk-modal>
+<div id="tn-modal" class="uk-modal-container" 
+    uk-scrollspy="target: .part; cls: uk-animation-slide-bottom; delay: 10;" 
+    uk-modal>
     <div class="uk-modal-dialog">
     <h2 class="uk-padding-small uk-padding-remove-bottom uk-modal-title">Teilnehmer:innen</h2>
         <button class="uk-modal-close-full" type="button" uk-close></button>
-<div class="webData" id="tn-filter" uk-filter="target: .js-filter">
+<div class="webData" id="tn-filter" uk-filter="delay: 2000;target: .js-filter">
 {% raw %}
     <ul class="uk-padding-small uk-padding-remove-vertical uk-subnav uk-subnav-pill">
         <li>
@@ -19,13 +21,17 @@ navbar: true
                     <li class="uk-nav-header">Gruppe</li>
                 {{#each grop}}
                 {{#if pub_part}}
-                    <li uk-filter-control="filter: [data-group='{{name}}'];group: group;"><a href="#">{{name}}</a></li>
+                    <li uk-filter-control="filter: [data-group='{{name}}'];group: group;">
+                        <a href="#">{{name}}</a>
+                    </li>
                 {{/if}}
                 {{/each}}
                     <li class="uk-nav-header">Kategorie</li>
                 {{#each transport}}
                     {{#if inuse }}
-                    <li uk-filter-control="filter: [data-transport='{{id}}'];group: transport;"><a href="#">{{desc}}</a></li>
+                    <li uk-filter-control="filter: [data-transport='{{id}}'];group: transport;">
+                        <a href="#">{{desc}}</a>
+                    </li>
                     {{/if}}
                 {{/each}}
                 </ul>
@@ -35,10 +41,14 @@ navbar: true
             <a href="#">Sort</a>
             <div id="tn-sorter-dropdown" uk-dropdown>
                 <ul class="uk-nav uk-dropdown-nav">
-                    <li uk-filter-control="sort: data-given;group: sort;"><a href="#">Vorname</a></li>
-                    <li uk-filter-control="sort: data-family;group: sort;"><a href="#">Nachname</a></li>
-                    <li uk-filter-control="sort: data-fix; order: desc;group: sort;filter: [data-hasfix=y]"><a href="#">Sponsorzusagen Fix</a></li>
-                    <li uk-filter-control="sort: data-pkm; order: desc;group: sort;filter: [data-haspkm=y]"><a href="#">Sponsorzusagen pro Km</a></li>
+                    <li uk-filter-control="sort: data-given;group: sort;">
+                        <a href="#">Vorname</a></li>
+                    <li uk-filter-control="sort: data-family;group: sort;">
+                        <a href="#">Nachname</a></li>
+                    <li uk-filter-control="sort: data-fix; order: desc;group: sort;">
+                        <a href="#">Sponsorzusagen Fix</a></li>
+                    <li uk-filter-control="sort: data-pkm; order: desc;group: sort;">
+                        <a href="#">Sponsorzusagen pro Km</a></li>
                 </ul>
             </div>
         </li>
@@ -76,9 +86,11 @@ navbar: true
 
 
 <script>
-UIkit.util.on('#tn-filter','beforeFilter',() => {
+document.addEventListener("DOMContentLoaded", event => {
+   UIkit.util.on('#tn-filter','beforeFilter',() => {
     UIkit.dropdown('#tn-filter-dropdown').hide(false);
     UIkit.dropdown('#tn-sorter-dropdown').hide(false);
+   });
 });
 </script>
 
