@@ -59,7 +59,8 @@ true">
 </div>
 
 <script>
-    UIkit.util.ready(() => {
+    document.addEventListener("DOMContentLoaded", event => {
+
         let wlh = UIkit.util.$(window.location.hash);
         if (wlh) {
             if (wlh.id == 'tn-modal') {

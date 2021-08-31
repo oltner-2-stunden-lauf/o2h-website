@@ -52,7 +52,8 @@ navbar: true
                 </ul>
             </div>
         </li>
-        <li class="uk-active" uk-filter-control><a  uk-icon="thumbnails" href="#"></a></li>
+        <li class="uk-active"><a  uk-icon="thumbnails" href="#"></a></li>
+        <!-- <li><input id="part-search" class="uk-search-input" type="search" uk-filter-control="" placeholder="Suchen ..."></li> -->
     </ul> 
     <div uk-overflow-auto class="uk-padding-small">
     <ul class="js-filter uk-child-width-1-1 uk-child-width-1-3@s
@@ -63,6 +64,7 @@ navbar: true
             data-pkm="{{pkm}}" data-haspkm="{{#if pkm}}y{{/if}}"
             data-given="{{given}}" 
             data-family="{{family}}"
+            data-name="{{given}} {{family}}"
             data-transport="{{transport_id}}">
             <div class="part uk-card uk-card-hover uk-card-small uk-card-default uk-card-body uk-position-relative">
                 <div class="uk-text-truncate uk-text-bold name">{{given}} {{family}}</div>
@@ -91,7 +93,18 @@ document.addEventListener("DOMContentLoaded", event => {
     UIkit.dropdown('#tn-filter-dropdown').hide(false);
     UIkit.dropdown('#tn-sorter-dropdown').hide(false);
    });
-});
+  
+    // const searchEl = document.getElementById('part-search');
+    // searchEl.onkeyup = function(){
+    //     if(!searchEl.value){
+    //         searchEl.setAttribute("uk-filter-control", "");
+    //     }else{
+    //         searchEl.setAttribute("uk-filter-control", "filter: [data-name*='" + searchEl.value.toLower() + "']");
+    //     }
+    //     searchEl.click();
+    // };
+    // console.log("search enabled");
+ });
 </script>
 
 
