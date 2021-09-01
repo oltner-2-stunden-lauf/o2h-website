@@ -5,8 +5,7 @@ key: tn-modal
 toggle: true
 navbar: true
 ---
-<div id="tn-modal" class="uk-modal-container" 
-    uk-scrollspy="target: .part; cls: uk-animation-slide-bottom; delay: 10;" 
+<div id="tn-modal" class="uk-modal-container"  
     uk-modal>
     <div class="uk-modal-dialog">
     <h2 class="uk-padding-small uk-padding-remove-bottom uk-modal-title">Teilnehmer:innen</h2>
@@ -52,7 +51,7 @@ navbar: true
                 </ul>
             </div>
         </li>
-        <li class="uk-active"><a  uk-icon="thumbnails" href="#"></a></li>
+        <li uk-filter-control="" class="uk-active"><a  uk-icon="thumbnails" href="#"></a></li>
         <!-- <li><input id="part-search" class="uk-search-input" type="search" uk-filter-control="" placeholder="Suchen ..."></li> -->
     </ul> 
     <div uk-overflow-auto class="uk-padding-small">
