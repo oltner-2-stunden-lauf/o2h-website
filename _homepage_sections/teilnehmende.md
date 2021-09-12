@@ -5,6 +5,7 @@ key: tn-modal
 toggle: true
 navbar: true
 ---
+
 <div id="tn-modal" class="uk-modal-container"  
     uk-modal>
     <div class="uk-modal-dialog">
@@ -89,21 +90,10 @@ navbar: true
 <script>
 document.addEventListener("DOMContentLoaded", event => {
    UIkit.util.on('#tn-filter','beforeFilter',() => {
-    UIkit.dropdown('#tn-filter-dropdown').hide(false);
-    UIkit.dropdown('#tn-sorter-dropdown').hide(false);
+       UIkit.dropdown('#tn-filter-dropdown').hide(false);
+       UIkit.dropdown('#tn-sorter-dropdown').hide(false);
    });
-  
-    // const searchEl = document.getElementById('part-search');
-    // searchEl.onkeyup = function(){
-    //     if(!searchEl.value){
-    //         searchEl.setAttribute("uk-filter-control", "");
-    //     }else{
-    //         searchEl.setAttribute("uk-filter-control", "filter: [data-name*='" + searchEl.value.toLower() + "']");
-    //     }
-    //     searchEl.click();
-    // };
-    // console.log("search enabled");
- });
+});
 </script>
 
 

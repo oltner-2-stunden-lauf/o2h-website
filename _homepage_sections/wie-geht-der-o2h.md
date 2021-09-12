@@ -31,7 +31,7 @@ Auch lokale Vereine und Schulklassen sind eingeladen, am Lauf teilzunehmen und e
         <h2 class="uk-modal-title">Fortbewegungsmittel</h2>
         <ul class="uk-list uk-list-hyphen">       
         {{#each transport}}
-            <li>{{desc}}</li>
+            <li>{{desc}} {{#if inuse}}({{inuse}} TN){{/if}}</li>
         {{/each}}        
         </ul>
     </div>
