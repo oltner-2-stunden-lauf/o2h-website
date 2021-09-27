@@ -9,7 +9,7 @@ cards:
         Der Lauf findet dieses Jahr sozusagen doppelt statt. Am 18.9 in der Oltner Innenstadt und vom 11.9 bis zum 18.9 dezentral – wo immer du gerade bist.
     - title: Schutzkonzept für den Lauf in der Innenstadt
       body: |
-        Der Lauf in der Innenstadt ist bezüglich Corona nicht sonderlich gefährlich, da er im freien stattfindet. Trotzdem haben wir natürlich unsere Planung angepasst und auch ein <a href="assets/schutzkonzept-2021.pdf" target="_new">Schutzkonzept</a> erstellt.
+        Der Lauf in der Innenstadt ist bezüglich Corona nicht sonderlich gefährlich, da er im Freien stattfindet. Trotzdem haben wir natürlich unsere Planung angepasst und auch ein <a href="assets/schutzkonzept-2021.pdf" target="_new">Schutzkonzept</a> erstellt.
     - title: Laufen und Rollen
       body: |
         Beim dezentralen «Lauf» kann dieses Jahr das

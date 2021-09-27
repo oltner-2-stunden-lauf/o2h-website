@@ -17,7 +17,8 @@ Lauf an (ohne in einer Gruppe zu sein).</li>
 <li>Wenn du deine Gruppe als "privat" markierst, kannst nur du
  Leute anmelden. Ansonsten erscheint die Gruppe im normalen Anmeldeformular und kann gewählt werden.</li>
 
-<li>Im dritten Tab kannst du weitere Personen für den Lauf anmelden. Alle E-Mail Korrespondenz geht dabei an dich. Das ist ideal für Kindergruppen.</li>
+<li>Im dritten Tab kannst du weitere Personen für den Lauf anmelden. Alle
+E-Mail-Korrespondenz geht dabei an dich. Das ist ideal für Kindergruppen.</li>
 </ul>
 
 </div>

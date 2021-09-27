@@ -21,9 +21,6 @@ Ja, wenn ihr gemeinsam rennt, dann ist das kein Problem.  Mehrere Anmeldungen k�
 #### Mir ist beim Laufen übel geworden. Kann ich den Lauf wiederholen?
 
 Ja, du kannst den Lauf so oft machen wie du willst. Das beste Resultat zählt.
-
-Wenn du steuern willst, in welchem Moment dein Resultat veröffentlicht wird, kannst du deinen TrackTok Tag auch erst nach dem Laufen in deiner Anmeldung erfassen.
-
 #### Mein Handyakku hatte <em>nach dem Laufen</em> keinen Strom mehr und mein Handy war nicht am Internet. Sind meine Daten verloren?
 
 Alle Daten, die erfasst wurden, solange das Handy noch lief, sind gespeichert und werden an den Server übermittelt, sobald du TrackTok wieder startest.

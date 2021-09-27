@@ -55,23 +55,29 @@ true">
     angemeldet</a></div>
     {% endraw %}
     <div class="uk-flex uk-flex-center"><div class="uk-card uk-card-body uk-text-large uk-width-1-3@m uk-width-2-3@s uk-width-1-4@s">
-        Aktuell: Die <a target="_blank" href="https://pallas-kliniken.ch">Pallas Kliniken</a> sponsorn jede:n Teilnehmer:in in den Kategorien Laufen und Walken mit 1 CHF/km.
+        Aktuell: Die <a target="_blank" href="https://pallas-kliniken.ch">Pallas Kliniken</a>
+        sponsern jede:n Teilnehmer:in in den Kategorien Laufen und Walken mit 1 CHF/km.
     </div></div>
     </div>
 </div>
 
 <script>
+    let NavHash = window.location.hash;
+    window.location.hash = '';
     document.addEventListener("DOMContentLoaded", event => {
 
-        let wlh = UIkit.util.$(window.location.hash);
+        let wlh = UIkit.util.$(NavHash);
         if (wlh) {
-            if (wlh.id == 'tn-modal') {
+            if (wlh.id == 'tn-modal' || wlh.id == 'bericht-modal') {
                 UIkit.modal(wlh).show();
             }
             else {
-                UIkit.scroll(wlh,{
-                    offset: 150
-                });
+                setTimeout(() => {
+                    console.log('scrolling',wlh);
+                    UIkit.scroll(NavHash,{
+                        offset: 100
+                    }).scrollTo(NavHash);
+                }, 500);
             }
         }
     });
