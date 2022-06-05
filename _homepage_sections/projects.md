@@ -1,27 +1,29 @@
 ---
-menu: Projekte 2021
-heading: Die offiziellen Projekte 2021
+menu: Projekte 2022
+heading: Die offiziellen Projekte 2022
 order: 2
 navbar: false
 cards:
-    - title: Paza la Paz – Ein Schritt zum Frieden
-      image: columbia.jpeg
+    - title: "Haiti: Espace Sûr – Ein Sicherer Ort"
+      image: haiti.jpeg
       body: |
-        Bildung für sozial und wirtschaftlich benachteiligte Jugendliche in Armenquartieren Kolumbiens. Mit dem Horyzon-Programm unterstützt YMCA Kolumbien die Jugendlichen in der Entwicklung von konstruktiven, selbstbestimmten und friedlichen Lebensperspektiven.
+        Die soziale und politische Situation hat sich in Haiti seit Anfang des Jahres 2021 erneut massiv verschlechtert.
+        
+        Das Horyzon-Projekt Espace Sûr, durchgeführt von YWCA Haiti zielt darauf ab, dass sich junge Frauen und Mädchen selbst aus der Armut befreien können. Sie haben gelernt, wie wichtig gute Schulbildung, Kenntnis der eigenen Rechte und Pflichten, Gleichberechtigung der Geschlechter, Gesundheit, gesunde Ernährung und Hygiene sind. 
+        
+        Die im Projekt erworbenen Fähigkeiten nutzen sie, um wirtschaftlich selbständig zu werden und ihr Wissen in ihren Familien einzubringen. Sie stärken ihre Leadership-Qualitäten und können sich später in politischen Gremien oderm im Beruf für gesellschaftsrelevante Themen stark machen. So werden sie Teil einer positiven Veränderung in der haitianischen Gesellschaft.
 
-        Das Programm richtet sich an sozial und wirtschaftlich benachteiligte Jugendliche in Armenquartieren Kolumbiens. Es soll verhindern, dass sich die Jugendlichen bewaffneten Gruppierungen anschliessen oder von ihnen zwangsrekrutiert werden. Die Jugendlichen stärken ihre Kompetenzen, sich in der Friedensförderung engagieren zu können.
-
-        Das Projekt wird mit zwei Dritteln des Erlöses des Oltner 2-Stunden-Laufs unterstützt. Details zum Projekt gibt es auf der <a target="_new" href="https://horyzon.ch/de/projekte-und-themen/engagement-weltweit/kolumbien/">Website von Horyzon</a>.
-    - title: Neuer Stall im Wildpark Mühletäli
-      image: wildpark.jpeg
+        Das Projekt wird mit zwei Dritteln des Erlöses unterstützt. Weitere Informationen gibt es auf der <a target="_new" href="https://horyzon.ch/de/projekte-und-themen/engagement-weltweit/haiti-espace-sur-ein-sicherer-ort/">Website</a> von Horyzon.
+    - title: pro pallium. Entlasten. Begleiten. Vernetzen.
+      image: pro-pallium.jpeg
       body: |
-        Der kleine Wildpark wurde vor 70 Jahren gegründet. Er ist für alle frei zugänglich. Die Besucher:innen können in den Gehegen Damhirsche, Sikahirsche, Waschbären und Zwergziegen beim Spielen, Streiten oder Fressen beobachten.
+        pro pallium ist eine gemeinnützige Palliativstiftung für Kinder und junge Erwachsene. Der Wirkungsbereich der Stiftung umfasst: Familienbetreuung, Basisschulung, Information, Beratung, Trauerbegleitung, Projektarbeit und überregionale Vernetzung. Das Angebot von Pro Pallium ist einzigartig in der Schweiz.
         
-        Der Wildpark wird von einem Verein betrieben, der den Wildpark durch Spenden und Mitgliederbeiträge finanziert. Durch die Pandemie fielen im Jahr 2020 die MIO und das Wildparkfest aus, wodurch die Finanzen des Vereins stark in Mitleidenschaft gezogen wurden.
+        Seit 2009 begleitet pro pallium Familien mit schwerstkranken Kindern mit fundiertem Know-how und Erfahrung. Ausgebildete Freiwillige unterstützen dieselbe Familie über eine längere Zeit in ihrem herausfordernden Familienalltag zuhause und schaffen Momente zum Durchatmen. 
+        
+        Durch die langfristige Zusammenarbeit mit derselben Person kann eine wertvolle Vertrauensbasis entstehen. Diese Begleitung ist für die Familien kostenfrei und wird ausschliesslich durch Spenden finanziert.
 
-        Mit dem Beitrag des Oltner 2-Stunden-Laufs soll der Bau eines Stalls auf der unteren Weide für Lamas und Alpakas finanziert werden. 
-        
-        Ein Drittel des Lauferlöses geht an den Verein Wildpark Mühletähli.  Weitere Informationen sind auf der <a target="_new" href="https://www.wildpark-muehletaeli.ch/">Website</a> des Vereins zu finden.
+        Ein Drittel des Lauferlöses geht an die Stiftung pro pallium.  Weitere Informationen sind auf der <a target="_new" href="https://www.pro-pallium.ch/">Website</a> der Stiftung zu finden.
 ---
 Der 2-Stunden-Lauf unterstützt jedes Jahr ein lokales und ein internationales gemeinnütziges Projekt.
 

@@ -3,7 +3,7 @@ menu: Resultate
 order: 3
 key: res-modal
 toggle: true
-navbar: true
+navbar: false
 ---
 
 <div id="res-modal" class="uk-modal-container"  
@@ -183,8 +183,8 @@ document.addEventListener("DOMContentLoaded", event => {
        UIkit.dropdown('#res-filter-dropdown').hide(false);
        UIkit.dropdown('#res-sorter-dropdown').hide(false);
    });
-   if (!NavHash) {
-       UIkit.modal('#res-modal').show();
-   }
+   //if (!NavHash) {
+   //    UIkit.modal('#res-modal').show();
+   //}
 });
 </script>

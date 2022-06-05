@@ -3,7 +3,7 @@ menu: Teilnehmer:innen
 order: 6
 key: tn-modal
 toggle: true
-navbar: false
+navbar: true
 ---
 
 <div id="tn-modal" class="uk-modal-container"  

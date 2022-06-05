@@ -22,8 +22,8 @@ layout: plain
                 <div id="card{{ forloop.index }}">
                     <div class="uk-card uk-card-small uk-card-hover uk-card-default">
                     {% if card.image %}
-                        <div class="uk-card-media-top">
-                            <img src="assets/img/{{ card.image }}" alt="">
+                        <div class="uk-card-media-top uk-cover-container uk-height-medium">
+                            <img src="assets/img/{{ card.image }}" alt="" uk-cover>
                         </div>
                     {% endif %}
                     <div class="uk-card-body">

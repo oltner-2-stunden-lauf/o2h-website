@@ -1,6 +1,6 @@
 ---
-menu: Programm Samstag, 18.9
-heading: Programm für Samstag, 18.9.2021
+menu: Programm Samstag, 17.9
+heading: Programm für Samstag, 17.9.2022
 order: 03
 key: prog
 navbar: false
@@ -29,8 +29,7 @@ cards:
         dezentralen Lauf sind im System. Wir gratulieren den Leuten, die uns durch ihren Einsatz aufgefallen sind und übergeben kleine Präsente.
     - title: "18:00 Gruppenfoto Kirchgasse"
       body: |
-        Zur Erinnerung machen wir ein Gruppenfoto mit allen Leuten, die noch hier sind. Damit geht der 34. Oltner 2-Stunden-Lauf zu Ende.
+        Zur Erinnerung machen wir ein Gruppenfoto mit allen Leuten, die noch hier sind. Damit geht der 35. Oltner 2-Stunden-Lauf zu Ende.
 
 ---
-Am Samstag, 18. September 2021 kommt in der Oltner Innenstadt der 34. Oltner 2-Stunden-Lauf zum Abschluss. Hier das Programm. Bitte beachte auch unser <a href="assets/schutzkonzept-2021.pdf"
-target="_new">Corona-Schutzkonzept</a>.
+Am Samstag, 17. September 2022 kommt in der Oltner Innenstadt der 35. Oltner 2-Stunden-Lauf zum Abschluss.
