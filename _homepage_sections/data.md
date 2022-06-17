@@ -8,7 +8,7 @@ specs:
     - t: Startgeld
       d: 10 Franken ab Jahrgang 2006
     - t: Start
-      d: Der dezentrale Lauf kann vom Samstag, 10. September 2022, 6 Uhr bis Samstag, 17. September 2022, 15 Uhr gestartet werden. Der Lauf in der Oltner Innenstadt startet am Samstag, 18. September 2021 um 15 Uhr.
+      d: Der dezentrale Lauf kann vom Samstag, 10. September 2022, 6 Uhr bis Samstag, 17. September 2022, 15 Uhr gestartet werden. Der Lauf in der Oltner Innenstadt startet am Samstag, 17. September 2022 um 15 Uhr.
     - t: Ort
       d: Je nach Kategorie. Der dezentrale Lauf kann an einem beliebigen Ort absolviert werden. Der klassische Lauf startet auf der Kirchgasse in Olten.
     - t: Sponsorgeld
