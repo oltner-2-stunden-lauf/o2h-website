@@ -3,7 +3,7 @@ menu: Resultate
 order: 3
 key: res-modal
 toggle: true
-navbar: false
+navbar: true
 ---
 
 <div id="res-modal" class="uk-modal-container"  

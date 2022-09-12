@@ -35,7 +35,7 @@ order: 70
 
 <p>Liebe XXX</p>
 
-<p>Ich mache dieses Jahr beim Oltner 2-Stunden-Lauf mit. Wobei "Lauf" stimmt eigentlich nicht mehr. Es sind ganz viele verschiedene Fortbewegungsmittel erlaubt. Dank der TrackTok-App kann man von überall her teilnehmen, woimmer es einem am besten passt. Sofern es die Corona-Situation zulässt, wird auch wieder ein klassischer Lauf in der Oltner Innenstadt stattfinden.</p>
+<p>Ich mache dieses Jahr beim Oltner 2-Stunden-Lauf mit. Wobei "Lauf" stimmt eigentlich nicht mehr. Es sind ganz viele verschiedene Fortbewegungsmittel erlaubt.</p>
 
 
 <p>Neben der sportlichen Herausforderung geht es darum, Geld für gemeinnützige Projekte zu sammeln.</p>
