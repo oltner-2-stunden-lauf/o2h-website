@@ -9,7 +9,7 @@ ma:
     - n: Dominik Fischer
       f: Streckensicherung
       c: streckensicherung@o2h.ch
-    - n: Andy Tengler
+    - n: Thomas Zumbrunn
       f: Staff
       c: staff@o2h.ch
     - n: Hans Marti

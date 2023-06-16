@@ -30,12 +30,13 @@ navbar: true
             </li>
             <li>
             <div class="part uk-card uk-card-hover uk-card-small uk-card-default uk-card-body uk-position-relative">
-            <a target="google-photo" href="https://photos.app.goo.gl/pu5tHFZY15JWprev7">Bilder vom
+<!--        <a target="google-photo" href="https://photos.app.goo.gl/GQ6mpeFMMq7zXHus8">Bilder vom
             Lauf</a><br/>
+            <a href="#bericht-modal" uk-toggle>Laufbericht</a> -->
             <a target="listmonk"
-            href="https://listmonk.o2h.ch/subscription/form">Anmeldung Mailingliste</a>, 
+            href="https://listmonk.o2h.ch/subscription/form">Anmeldung Mailingliste</a><br/> &nbsp;
 {% endraw %}
-            <a href="#bericht-modal" uk-toggle>Laufbericht</a>
+            
             </div>
             </li>
         </ul>

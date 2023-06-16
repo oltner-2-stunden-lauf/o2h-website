@@ -6,9 +6,9 @@ specs:
     - t: Teilnahme
       d: Alle sind willkommen, auch Gruppen.
     - t: Startgeld
-      d: 10 Franken ab Jahrgang 2006
+      d: 10 Franken ab Jahrgang 2007
     - t: Start
-      d: Der dezentrale Lauf kann vom Samstag, 10. September 2022, 6 Uhr bis Samstag, 17. September 2022, 15 Uhr gestartet werden. Der Lauf in der Oltner Innenstadt startet am Samstag, 17. September 2022 um 15 Uhr.
+      d: Der dezentrale Lauf kann vom Samstag, 9. September 2023, 6 Uhr bis Samstag, 16. September 2023, 15 Uhr gestartet werden. Der Lauf in der Oltner Innenstadt startet am Samstag, 16. September 2023 um 15 Uhr.
     - t: Ort
       d: Je nach Kategorie. Der dezentrale Lauf kann an einem beliebigen Ort absolviert werden. Der klassische Lauf startet auf der Kirchgasse in Olten.
     - t: Sponsorgeld
@@ -18,9 +18,9 @@ specs:
       d: |
         Ganz wichtig auch für deine Sponsor:innen: ausschliesslich den offiziellen Einzahlungsschein verwenden, der mit der Rechnung versandt wird. Nur so können wir die einbezahlten Gelder korrekt verbuchen und danach den Gruppen, die mit einem eigenen Projekt gelaufen sind, ihre 33&nbsp;% auszahlen.
     - t: T-Shirts
-      d: Wir haben das Startgeld bei den Kindern gestrichen, dafür gibt es aber auch kein kostenloses T-Shirt mehr. Du kannst jedoch bei der Anmeldung ein Lauf-Shirt für 15 CHF mitbestellen. Wer sich bis zum 23. August anmeldet, erhält das T-Shirt noch vor dem Lauf.
+      d: Wir haben das Startgeld bei den Kindern gestrichen, dafür gibt es aber auch kein kostenloses T-Shirt mehr. Du kannst jedoch bei der Anmeldung ein Lauf-Shirt für 15 CHF mitbestellen. Wer sich bis zum 21. August anmeldet, erhält das T-Shirt am Lauftag.
     - t: Laufstrecke
-      d: Der klassische Lauf findet auf einem Rundkurs von 1,7 km durch die Oltner Innenstadt statt.
+      d: Der klassische Lauf findet auf einem Rundkurs von 1,1 km durch die Oltner Innenstadt statt.
     - t: Nachmeldungen
       d: Du kannst dich jederzeit online für den 2-Stunden-Lauf anmelden. Nachmeldungen direkt vor Ort am Samstag sind nicht möglich.
     - t: Organisation

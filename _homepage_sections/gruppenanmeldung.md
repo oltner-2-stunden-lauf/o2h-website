@@ -57,3 +57,4 @@ line-height: 3ex;">33&#8239;% für {{project}}</div></small>{{else}}{{/if}}</td>
 </div>
 </div>
 
+Für alle die am Lauf in der Oltner Innenstadt teilnehmen gibt es am Ende der Veranstaltung eine kleine Verpflegung und einen Goodie-Bag.

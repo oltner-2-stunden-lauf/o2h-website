@@ -41,8 +41,8 @@ order: 70
 <p>Neben der sportlichen Herausforderung geht es darum, Geld für gemeinnützige Projekte zu sammeln.</p>
 
 
-<p>1/3 geht an pro pallium, die Paliativstiftung für Kinder und junge Erwachsene.<br/>
-2/3 gehen an das Horyzon-Bildungsprojekt in Haiti für Mädchen und junge Frauen.</p>
+<p>1/3 geht an den GFVO Kinderhort Reiserstrasse zur Erneuerung des Spielplatzes.<br/>
+2/3 gehen an das Horyzon-Projekt in Ugande für Jugendliche die aufgrund des Bürgerkriegs aus ihrem Heimatland Südsudan geflüchtet sind.</p>
 
 
 <p>Es würde mich sehr freuen, wenn Du mich und damit die beiden Projekte unterstützen würdest. Ich bin mit dem XXX unterwegs. In 2 Stunden werde ich ca. XXX Kilometer zurückzulegen.</p>
