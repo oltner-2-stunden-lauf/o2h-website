@@ -14,7 +14,7 @@ cards:
     - title: "14:00–18:00 Badi-Garderoben offen"
       body: |
         Für die Teilnehmenden am Lauf werden die Garderoben der Oltner Badi nochmals geöffnet.
-    - title: "14:30–14:45 Aufwärmen mit MoVe"
+    - title: "14:30–14:45 Aufwärmen mit MOVE"
       body: |
         Eine halbe Stunde vor dem Lauf findet vor der Stadtkirche ein gemeinsames Aufwärmen statt.
     - title: "15:00–17:00 Lauf in der Innenstadt"
