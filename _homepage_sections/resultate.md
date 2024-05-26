@@ -1,13 +1,13 @@
 ---
 menu: Resultate
+heading: Resultate
 order: 3
 key: res-modal
 toggle: true
 navbar: true
 ---
 
-<div id="res-modal" class="uk-modal-container"  
-    uk-modal>
+<div id="res-modal" class="uk-modal-container" uk-modal>
     <div class="uk-modal-dialog">
     <h2 class="uk-padding-small uk-padding-remove-bottom uk-modal-title">Zwischenstand</h2>
         <button class="uk-modal-close-full" type="button" uk-close></button>
@@ -30,9 +30,9 @@ navbar: true
             </li>
             <li>
             <div class="part uk-card uk-card-hover uk-card-small uk-card-default uk-card-body uk-position-relative">
-<!--        <a target="google-photo" href="https://photos.app.goo.gl/GQ6mpeFMMq7zXHus8">Bilder vom
+            <a target="google-photo" href="https://photos.app.goo.gl/jn3bvijepSKaDThX8">Bilder vom
             Lauf</a><br/>
-            <a href="#bericht-modal" uk-toggle>Laufbericht</a> -->
+<!--        <a href="#bericht-modal" uk-toggle>Laufbericht</a> -->
             <a target="listmonk"
             href="https://listmonk.o2h.ch/subscription/form">Anmeldung Mailingliste</a><br/> &nbsp;
 {% endraw %}
@@ -73,7 +73,8 @@ navbar: true
     <thead>
 <tr><th class="uk-table-expand">Gruppe</th>
     <th>Pers</th>
-    <th>Zugesagt</th>
+    <th>Total</th>
+    <th>Gruppenanteil</th>
     <th>Eingezahlt</th>
 </tr>
 </thead>
@@ -81,24 +82,25 @@ navbar: true
 <tr>
   <td><div>Lokales Projekt</td>
   <td class="uk-text-right">{{meta.completed}}</td>
+  <td class="uk-text-right"></td>
   <td class="uk-text-right">{{meta.totallocalchf}}&nbsp;CHF</td>
   <td class="uk-text-right">{{meta.rctotallocalchf}}&nbsp;CHF</td>
 </tr>
 <tr>
   <td><div>Internationales Projekt</td>
   <td class="uk-text-right">{{meta.completed}}</td>
+  <td class="uk-text-right"></td>
   <td class="uk-text-right">{{meta.totalintlchf}}&nbsp;CHF</td>
   <td class="uk-text-right">{{meta.rctotalintlchf}}&nbsp;CHF</td>
 </tr>
 {{#each grop}}
-{{#if project}}
 <tr>
   <td>{{name}}</td>
   <td class="uk-text-right">{{parts}}</td>
-  <td class="uk-text-right">{{expected_chf}}&nbsp;CHF</td>
+  <td class="uk-text-right">{{total_chf}}&nbsp;CHF</td> 
+  <td class="uk-text-right">{{expected_chf}}&nbsp;CHF</td> 
   <td class="uk-text-right">{{received_chf}}&nbsp;CHF</td>
 </tr>
-{{/if}}
 {{/each}}
 </tbody>
 </table>

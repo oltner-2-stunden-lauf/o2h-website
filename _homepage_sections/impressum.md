@@ -12,7 +12,7 @@ ma:
     - n: Thomas Zumbrunn
       f: Staff
       c: staff@o2h.ch
-    - n: Hans Marti
+    - n: Andreas Frey
       f: Marketing
       c: marketing@o2h.ch
     - n: Claudia Strässle

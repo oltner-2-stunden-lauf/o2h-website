@@ -13,14 +13,9 @@
 // Variables
 // ========================================================================
 
-$iconnav-margin-horizontal:                       $global-small-margin !default;
-$iconnav-margin-vertical:                         $iconnav-margin-horizontal !default;
 
-$iconnav-item-color:                              $global-muted-color !default;
 
-$iconnav-item-hover-color:                        $global-color !default;
 
-$iconnav-item-active-color:                       $global-color !default;
 
 
 /* ========================================================================
@@ -84,11 +79,9 @@ $iconnav-item-active-color:                       $global-color !default;
     @if(mixin-exists(hook-iconnav-item)) {@include hook-iconnav-item();}
 }
 
-/* Hover + Focus */
-.uk-iconnav > * > a:hover,
-.uk-iconnav > * > a:focus {
+/* Hover */
+.uk-iconnav > * > a:hover {
     color: $iconnav-item-hover-color;
-    outline: none;
     @if(mixin-exists(hook-iconnav-item-hover)) {@include hook-iconnav-item-hover();}
 }
 
@@ -137,9 +130,6 @@ $iconnav-item-active-color:                       $global-color !default;
 // Inverse
 // ========================================================================
 
-$inverse-iconnav-item-color:                $inverse-global-muted-color !default;
-$inverse-iconnav-item-hover-color:          $inverse-global-color !default;
-$inverse-iconnav-item-active-color:         $inverse-global-color !default;
 
 
 
