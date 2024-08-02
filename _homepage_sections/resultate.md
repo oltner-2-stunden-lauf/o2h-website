@@ -35,14 +35,13 @@ navbar: true
 <!--        <a href="#bericht-modal" uk-toggle>Laufbericht</a> -->
             <a target="listmonk"
             href="https://listmonk.o2h.ch/subscription/form">Anmeldung Mailingliste</a><br/> &nbsp;
-{% endraw %}
+
             
             </div>
             </li>
         </ul>
         </script>
     </div>
-{% raw %}
    <!-- <h2 class="uk-padding-small uk-padding-remove-bottom uk-modal-title">On the Road</h2>
     <div class="webResults">
     <ul class="uk-child-width-1-1 uk-child-width-1-3@s

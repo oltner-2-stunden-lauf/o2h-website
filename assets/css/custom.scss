@@ -29,14 +29,13 @@ footer {
 #title-page {
     display: flex;
     justify-content: center;
-    height: 100vh;
     text-align: center;
     color: $base-heading-color;
     background-color: #3019ff;
+    margin-bottom: 3vw;
     img {
-        padding-top: 7vh;
-        padding-bottom: 13vh;
-        max-height: 65vh;
+        padding-top: 5vw;
+        padding-bottom: 5vw;
         max-width: 80vw;
         width: 100vw;
     }
@@ -85,7 +84,18 @@ footer {
             opacity: 0;
         }
     }
-
+    div.webData {
+        font-size: 4.5vw;
+        font-weight: 700;
+        -webkit-text-stroke: 0.4vw #000; /* Width and color */
+        text-stroke: 0.4vw #000;        /* Standard (but less supported) */
+        paint-order: stroke fill;
+        a {
+            color: #b90006;
+            text-decoration: none;
+        }
+        padding-bottom: 3vw;
+    }
 }
 
 .keep-together, 

@@ -4,11 +4,12 @@ layout: plain
 <div id="content" class="uk-container">
 {% for item in site.homepage_sections %}
     {% if item.toggle %}{% else %}
-    <div class="uk-grid-collapse uk-flex-center@s uk-margin-large-bottom" uk-grid>
+    <div class="uk-grid-collapse uk-flex-center@s" uk-grid>
         <div class="uk-width-1-1">
     {% endif %}
             {% if item.heading %}
-            <h2 class="uk-heading-small" id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}">{{ item.heading }}</h2>
+            <div id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}" class="uk-margin-large-bottom"></div>
+            <h2 class="uk-heading-small">{{ item.heading }}</h2>
             {% endif %}
             {% if item.content %}
                 <div class="sh-hyphen{% if item.columns %} uk-column-1-2@s{% endif %}">
@@ -51,15 +52,15 @@ layout: plain
                 </tbody>
             </table>
             {% endif %}
-    {% if item.toggle %}{% else %}        
+    {% if item.toggle %}{% else %}
         </div>
     </div>
     {% endif %}
 {% endfor %}
 </div>
-<script src="/o2h/js/handlebars.js"></script>
-<script src="/o2h/js/loader.js"></script>
+<script src="https://o2h.ch/o2h/js/handlebars.js"></script>
+<script src="https://o2h.ch/o2h/js/loader.js"></script>
 <script>
-    o2hLoader('/o2h/REST/v1/webData','webData',1000*600);
-    o2hLoader('/o2h/REST/v1/webResults','webResults',1000*600);
+    o2hLoader('https://o2h.ch/o2h/REST/v1/webData','webData',1000*600);
+    o2hLoader('https://o2h.ch/o2h/REST/v1/webResults','webResults',1000*600);
 </script>
