@@ -73,13 +73,9 @@ true">
             }
             else {
                 setTimeout(() => {
-                    console.log('scrolling',wlh);
-                    UIkit.Utils.scrollToElement(NavHash);
-                    // UIkit.$(element, { /* options */ });
-                    // UIkit.scroll(NavHash,{
-                    //     offset: 400
-                    // }).scrollTo(NavHash);
-                }, 500);
+                    //UIkit.$(element, { /* options */ });
+                    UIkit.scroll(wlh,{}).scrollTo(wlh);
+                }, 700);
             }
         }
     });

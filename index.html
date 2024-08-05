@@ -8,7 +8,8 @@ layout: plain
         <div class="uk-width-1-1">
     {% endif %}
             {% if item.heading %}
-            <div id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}" class="uk-margin-large-bottom"></div>
+            <a id="{% if item.key %}{{item.key}}{% else %}item{{ forloop.index }}{% endif %}"
+            style="display: block; padding-top: 12ex;"></a>
             <h2 class="uk-heading-small">{{ item.heading }}</h2>
             {% endif %}
             {% if item.content %}

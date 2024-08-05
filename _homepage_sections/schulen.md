@@ -27,9 +27,9 @@ PS: Die Teilnahme am Lauf ist für Personen bis zum 16. Geburtstag kostenlos!
 
 ### Downloads
 
-- [Flyer für Schulklassen](/assets/flyer-lp.pdf)
-- [Anleitung für Gruppenanmeldung](/assets/anleitung-gruppen.pdf)
-- [Vorlage für Sponsoringbrief](/assets/sponsorbrief.docx)
-- [Checkliste für Lehrpersonen](/assets/checkliste.docx)
+- [Anleitung für Gruppenanmeldung (PDF)](/assets/anleitung-gruppen.pdf)
+- [Vorlage für Sponsoringbrief (DOCX Word)](/assets/sponsorbrief.docx)
+- [Checkliste für Lehrpersonen (DOCX Word)](/assets/checkliste.docx)
+- ["Sechs-Gründe-Flyer" zum weitergeben (PDF)](/assets/flyer-lp.pdf)
 
 Wenn Sie Rückmledungen oder Fragen zu den Dokumenten haben können Sie uns gerne kontaktieren unter <mailto:anmeldung@o2h.ch>. Oder wenn Sie gleich selber eine Korrektur oder Ergänzung an den Dokumenten vornehmen möchten, können Sie dies auch direkt auf [Google Drive](https://drive.google.com/drive/folders/1-9-Q15ZdR2qnZNMqHg4JXLZkb71hHAkF?usp=sharing) tun.
