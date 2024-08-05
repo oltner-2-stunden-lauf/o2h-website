@@ -6,14 +6,13 @@ toggle: true
 navbar: false
 ---
 
-<div id="tn-modal" class="uk-modal-container"  
-    uk-modal>
-    <div class="uk-modal-dialog">
+<div id="tn-modal" class="uk-modal-container" uk-modal>
+    <div class="uk-modal-dialog uk-modal-body">
     <h2 class="uk-padding-small uk-padding-remove-bottom uk-modal-title">Teilnehmer:innen</h2>
         <button class="uk-modal-close-full" type="button" uk-close></button>
 <div class="webData" id="tn-filter" uk-filter="delay: 2000;target: .js-filter">
 {% raw %}
-    <ul class="uk-padding-small uk-padding-remove-vertical uk-subnav uk-subnav-pill">
+    <ul class="uk-padding-small uk-padding-remove-vertical uk-subnav uk-subnav-pill" uk-margin>
         <li>
             <a href="#">Filter</a>
             <div id="tn-filter-dropdown" uk-dropdown>

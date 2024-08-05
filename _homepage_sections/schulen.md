@@ -14,9 +14,11 @@ columns: true
 
 3. **Flexibel teilnehmen**: Es besteht die Möglichkeit, am offiziellen Lauf am 14. September in der Stadt Olten teilzunehmen oder selbst einen eigenen Lauf in der Woche davor zu veranstalten. Anmeldung und Sponsorenverwaltung laufen in beiden Fällen über das voll automatisierte Computersystem des Oltner 2-Stunden-Laufs.
 
-4. **Individuelle Bewegungsmöglichkeit**: In den zwei Stunden kann man sich nicht nur zu Fuss, sondern auch mit dem Velo, Trottinett, Rollstuhl, mit Inlines etc. vorwärtsbewegen. Sie können damit für alle Ihre Schüler*innen nach ihren individuellen Ressourcen das passende Fortbewegungsmittel wählen. 
+4. **Individuelle Bewegungsmöglichkeit**: Wenn Sie selbst einen Lauf
+   veranstalten, können sich Ihre Schüler*innen nicht nur zu Fuss, sondern
+   auch mit dem Velo, Trottinett, Rollstuhl, mit Inlines etc. vorwärtsbewegen.
 
-5. **Goodies für alle:** Nach dem offiziellen Lauf in der Stadt gibt es einen Goodie-Bag für jede Person, die teilgenommen hat. Lehrpersonen, die einen eigenen Lauf veranstalten und ihre Klasse mindestens drei Wochen vor dem Lauf in der Stadt anmelden, erhalten vom Lauf-OK eine kleine Überraschung für ihre Schüler*innen. 
+5. **Goodies für alle:** Nach dem offiziellen Lauf in der Stadt gibt es einen Goodie-Bag für jede Person, die teilgenommen hat. Lehrpersonen, die einen eigenen Lauf veranstalten und ihre Klasse mindestens drei Wochen vor dem Lauf in der Stadt anmelden, erhalten vom Lauf-OK eine kleine Überraschung für ihre Schüler*innen.
 
 6. **Unterstützung beim Lauf organisieren durch das Lauf-OK**: Wir unterstützen Sie mit Checklisten und Materialien bei der Organisation und Durchführung eines eigenen Laufes. Bei Fragen helfen wir gerne weiter: <mailto:anmeldung@o2h.ch> / 079 412 4039.
 
@@ -32,4 +34,9 @@ PS: Die Teilnahme am Lauf ist für Personen bis zum 16. Geburtstag kostenlos!
 - [Checkliste für Lehrpersonen (DOCX Word)](/assets/checkliste.docx)
 - ["Sechs-Gründe-Flyer" zum weitergeben (PDF)](/assets/flyer-lp.pdf)
 
-Wenn Sie Rückmledungen oder Fragen zu den Dokumenten haben können Sie uns gerne kontaktieren unter <mailto:anmeldung@o2h.ch>. Oder wenn Sie gleich selber eine Korrektur oder Ergänzung an den Dokumenten vornehmen möchten, können Sie dies auch direkt auf [Google Drive](https://drive.google.com/drive/folders/1-9-Q15ZdR2qnZNMqHg4JXLZkb71hHAkF?usp=sharing) tun.
+Wenn Sie Rückmeldungen oder Fragen zu den Dokumenten haben, können Sie uns
+gerne kontaktieren unter <mailto:anmeldung@o2h.ch>.  Wenn Sie gleich
+selber eine Korrektur oder Ergänzung an den Dokumenten vornehmen möchten,
+können Sie dies direkt auf [Google
+Drive](https://drive.google.com/drive/folders/1-9-Q15ZdR2qnZNMqHg4JXLZkb71hHAkF?usp=sharing)
+tun.

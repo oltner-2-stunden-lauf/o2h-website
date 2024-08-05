@@ -1,6 +1,5 @@
 ---
 menu: Resultate
-heading: Resultate
 order: 3
 key: res-modal
 toggle: true
