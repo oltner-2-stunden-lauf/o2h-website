@@ -4,6 +4,15 @@ heading: Fragen und Antworten zu TrackTok
 order: 80
 columns: true
 ---
+#### Wie installiere ich TrackTok auf meinem Händy?
+
+Du kannst TrackTok vom [PlayStore
+(Android)](https://play.google.com/store/apps/details?id=ch.o2h.tracktok&hl=en_US)  oder
+[AppStore (iPhone)](https://apps.apple.com/us/app/tracktok/id1523236010) auf dein
+Telefon laden. Die App braucht Zugriff auf deine Location Daten um dich beim
+Laufen tracken zu können. Wenn du die App startest wirst du eine
+Aufforderung erhalten die entsprechenden Berechtigungen zu geben.
+
 #### Ich habe TrackTok gestartet, aber ich sehe nur den «Test Run». Wo ist der 2-Stunden-Lauf?
 
 Auf dem TrackTok-Bildschirm wird ein Code aus zwei mal vier Buchstaben angezeigt. Das ist der TrackTok Tag. Wenn du diese Buchstaben in deiner Anmeldung eintippst und danach TrackTok neu startest oder mit dem Finger den Bildschirm nach unten wischst, dann wird der 2-Stunden-Lauf angezeigt.
