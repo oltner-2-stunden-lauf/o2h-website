@@ -29,8 +29,8 @@ navbar: true
             </li>
             <li>
             <div class="part uk-card uk-card-hover uk-card-small uk-card-default uk-card-body uk-position-relative">
-            <a target="google-photo" href="https://photos.app.goo.gl/jn3bvijepSKaDThX8">Bilder vom
-            Lauf</a><br/>
+            <a target="google-photo" href="https://photos.app.goo.gl/QPNHHRHCbEoQdC2H7">Bilder vom
+            Lauf 2024</a><br/>
 <!--        <a href="#bericht-modal" uk-toggle>Laufbericht</a> -->
             <a target="listmonk"
             href="https://listmonk.o2h.ch/subscription/form">Anmeldung Mailingliste</a><br/> &nbsp;

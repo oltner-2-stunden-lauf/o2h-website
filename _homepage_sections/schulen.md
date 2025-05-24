@@ -8,6 +8,12 @@ columns: true
 
 ### Sechs Gründe, warum Ihre Klasse beim Oltner 2-Stunden-Lauf dabei sein sollte
 
+> Achtung, diese Informationen beziehen sich auf den Lauf 2024. Sie treffen
+> aber auch für den Lauf 2025 zu. Er findet dezentral vom 13.9 bis 20.9 statt.
+> Der Abschluss mit dem Stadtlauf wird am 20.9.2025 in der Innenstadt
+> ausgetragen. Die Informationen zu den offiziellen Projekten 2025 werden
+> wir anfang Juni aufschalten.
+
 1. **Gemeinsam Gutes tun**: Mit dem Sponsorenlauf werden ein Bildungsprojekt für Mädchen in Nepal und die Renovation der Weissmieshütte des SAC Olten unterstützt. Nehmen Sie mit Ihrer Klasse am 2-Stunden-Lauf teil, und tragen Sie so direkt zum Erfolg der beiden gemeinnützigen Projekte bei. Die Projekte lassen sich auch gut im Unterricht thematisieren.
 
 2. **Klassenkasse aufbessern**: Ein Drittel der Sponsorengelder, die Ihre Schüler*innen sammeln, können Sie für ein eigenes Klassenprojekt einsetzen.
