@@ -1,6 +1,6 @@
 ---
-menu: Programm Samstag, 14.9
-heading: Programm für Samstag, 14.9.2024
+menu: Programm Samstag, 20.9
+heading: Programm für Samstag, 20.9.2025
 order: 03
 key: prog
 navbar: false
@@ -29,7 +29,7 @@ cards:
         dezentralen Lauf sind im System. Wir gratulieren den Leuten, die uns durch ihren Einsatz aufgefallen sind und übergeben kleine Präsente.
     - title: "18:00 Gruppenfoto Kirchgasse"
       body: |
-        Zur Erinnerung machen wir ein Gruppenfoto mit allen Leuten, die noch hier sind. Damit geht der 37. Oltner 2-Stunden-Lauf zu Ende.
+        Zur Erinnerung machen wir ein Gruppenfoto mit allen Leuten, die noch hier sind. Damit geht der 38. Oltner 2-Stunden-Lauf zu Ende.
 
 ---
-Am Samstag, 14. September 2024 kommt in der Oltner Innenstadt der 37. Oltner 2-Stunden-Lauf zum Abschluss.
+Am Samstag, 20. September 2025 findet in der Oltner Innenstadt der offizielle 38. Oltner 2-Stunden-Lauf statt.

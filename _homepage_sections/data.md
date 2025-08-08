@@ -1,4 +1,4 @@
-﻿---
+---
 menu: Technische Angaben
 heading: Technische Angaben
 order: 5
@@ -6,9 +6,9 @@ specs:
     - t: Teilnahme
       d: Alle sind willkommen, auch Gruppen.
     - t: Startgeld
-      d: 10 Franken ab Jahrgang 2008
+      d: 10 Franken ab Jahrgang 2009
     - t: Start
-      d: Der dezentrale Lauf kann vom Samstag, 7. September 2024, 6 Uhr bis Samstag, 14. September 2024, 15 Uhr gestartet werden. Der Lauf in der Oltner Innenstadt startet am Samstag, 14. September 2024 um 15 Uhr.
+      d: Der dezentrale Lauf kann vom Samstag, 13. September 2025, 6 Uhr bis Samstag, 20. September 2025, 15 Uhr gestartet werden. Der Lauf in der Oltner Innenstadt startet am Samstag, 20. September 2025 um 15 Uhr.
     - t: Ort
       d: Je nach Kategorie. Der dezentrale Lauf kann an einem beliebigen Ort absolviert werden. Der klassische Lauf startet auf der Kirchgasse in Olten.
     - t: Sponsorgeld

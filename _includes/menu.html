@@ -2,13 +2,13 @@
     uk-navbar uk-sticky="top: 80vh;animation: uk-animation-slide-top;">
     <div class="uk-navbar-left uk-visible@m">
         <ul class="uk-navbar-nav">
-            <li><a href="#"><img src="assets/img/logo.svg"></a></li>
+            <li><a href="#"><img src="assets/img/logo.svg?2025"></a></li>
         </ul>
     </div>
     <div class="uk-navbar-center">
-        <div class="uk-navbar-item uk-visible@m">Anmeldung</div>
-<!--        <div class="uk-navbar-item"><a class="uk-button uk-button-primary" href="/o2h#lang=de">Laufen</a></div>    -->
-        <div class="uk-navbar-item"><a class="uk-button uk-button-secondary" href="https://forms.gle/ST7jzaNvztTeUmdJ8">Helfen</a></div>
+        <!-- <div class="uk-navbar-item uk-visible@m">Anmeldung</div> -->
+        <div class="uk-navbar-item"><a class="uk-button uk-button-primary" href="/o2h#lang=de">Laufen</a></div> 
+        <div class="uk-navbar-item"><a class="uk-button uk-button-secondary" href="https://forms.gle/7isnBdBoRQ4oumebA">Helfen</a></div>
     </div>
     <div class="uk-navbar-right">
         <ul class="uk-navbar-nav">
@@ -49,17 +49,22 @@ true">
    </div>
 </div>
 <div id="title-page">
-    <div>
-    <h1>Der Lauf 2025 findet am 20.09 statt!</h1>
-    <img src="assets/img/homepage.svg"/>
-    {% raw %}
-    <div class="webData uk-text-large uk-margin-large-bottom"><a href="#tn-modal" uk-toggle>{{meta.parts}} sind angemeldet</a></div>
-    {% endraw %}
+  <div>
+    <img src="assets/img/logo.svg?2025"/>
+    <div class="lauf">
+      <div class="o2h">38. Oltner<br>2-Stunden-Lauf</div>
+      <div class="date">
+      13.–20.09.2025
+      </div>
+      {% raw %}    
+      <div class="webData"><a href="#tn-modal" uk-toggle>{{meta.parts}} sind angemeldet</a></div>
+      {% endraw %}
     <!-- <div class="uk-flex uk-flex-center"><div class="uk-card uk-card-default uk-card-body uk-text-large uk-background-muted uk-width-2-3@m uk-width-1-1@s uk-width-2-4@s">
         Die <a target="_blank" href="https://pallas-kliniken.ch">Pallas Kliniken</a>
         sponsern jede:n Teilnehmer:in in den Kategorien Laufen und Walken mit 1 CHF/km.
     </div> -->
-</div>
+    </div>
+  </div>
 </div>
 
 <script>

@@ -41,8 +41,8 @@ order: 70
 <p>Neben der sportlichen Herausforderung geht es darum, Geld für gemeinnützige Projekte zu sammeln.</p>
 
 
-<p>1/3 geht an den SAC Olten als Beitrag an den Umbau der Weissmies Hütte.<br/>
-2/3 gehen an das Horyzon-Projekt in Nepal für ein Frauen Förderungeprojekt.</p>
+<p>1/3 geht ans Integrationsprojekt von iPunkt.<br/>
+2/3 gehen an das Horyzon-Projekt in Togo.</p>
 
 
 <p>Es würde mich sehr freuen, wenn Du mich und damit die beiden Projekte unterstützen würdest. Ich bin mit dem XXX unterwegs. In 2 Stunden werde ich ca. XXX Kilometer zurückzulegen.</p>

@@ -27,17 +27,39 @@ footer {
 }
 
 #title-page {
-    display: flex;
-    justify-content: center;
-    text-align: center;
     color: $base-heading-color;
-    background-color: #3019ff;
-    margin-bottom: 3vw;
-    img {
-        padding-top: 5vw;
-        padding-bottom: 5vw;
-        max-width: 80vw;
-        width: 100vw;
+    background-color: #009340;
+    > div {
+      position: relative;
+      color: #fff;
+      height: 38vw;
+      padding-left: 10vw;
+      .lauf {
+	padding-left: 0;
+	margin: 0;
+	position: absolute;
+	left: 37vw;
+	top: 5vw;
+        font-size: 5.5vw;
+	font-weight: 900;	
+	line-height: 120%;
+        .date {
+           font-weight: 300;
+        }
+        .webData {
+	   padding-top: 3vw;
+	   font-size: 4.5vw;
+           a {
+            color: #fff;
+            text-decoration: none;
+           }
+        }
+      }
+      img {
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+        width: 23vw;
+      }
     }
     .scroll-down-arrow {
         background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgdmVyc2lvbj0iMS4xIiBpZD0iQ2hldnJvbl90aGluX2Rvd24iIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHg9IjBweCIgeT0iMHB4IiB2aWV3Qm94PSIwIDAgMjAgMjAiIGVuYWJsZS1iYWNrZ3JvdW5kPSJuZXcgMCAwIDIwIDIwIiBmaWxsPSJibGFjayIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+PHBhdGggZD0iTTE3LjQxOCw2LjEwOWMwLjI3Mi0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwYzAuMjcsMC4yNjgsMC4yNzEsMC43MDEsMCwwLjk2OWwtNy45MDgsNy44M2MtMC4yNywwLjI2OC0wLjcwNywwLjI2OC0wLjk3OSwwbC03LjkwOC03LjgzYy0wLjI3LTAuMjY4LTAuMjctMC43MDEsMC0wLjk2OWMwLjI3MS0wLjI2OCwwLjcwOS0wLjI2OCwwLjk3OSwwTDEwLDEzLjI1TDE3LjQxOCw2LjEwOXoiLz48L3N2Zz4=);
@@ -83,18 +105,6 @@ footer {
             transform: translate(0, 20px);
             opacity: 0;
         }
-    }
-    div.webData {
-        font-size: 4.5vw;
-        font-weight: 700;
-        -webkit-text-stroke: 0.4vw #000; /* Width and color */
-        text-stroke: 0.4vw #000;        /* Standard (but less supported) */
-        paint-order: stroke fill;
-        a {
-            color: #b90006;
-            text-decoration: none;
-        }
-        padding-bottom: 3vw;
     }
 }
 

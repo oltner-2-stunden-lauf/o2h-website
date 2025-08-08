@@ -1,27 +1,40 @@
 ---
-menu: Projekte 2024
-heading: Die offiziellen Projekte 2024
+menu: Projekte 2025
+heading: Die offiziellen Projekte 2025
 order: 2
 navbar: false
 cards:
-    - title: Projekt «EmpowHER – Starke Frauen, starke Gemeinschaften» in Nepal
-      image: nepal.jpeg
+    - title: Projekt «Doin' it Right – Perspektiven für straffällige Jugendliche» in Togo
+      image: togo.webp
       body: |
-        Das ehemalige Königreich Nepal ist mit seinen Traditionen und Bräuchen für kulturelle Vielfalt bekannt. Doch viele Menschen, besonders Frauen, haben gerade wegen diesen Traditionen kein einfaches Leben. Nepalesinnen sind in der Gesellschaft weniger akzeptiert und haben generell einen geringeren Stellenwert als Männer. Die Mädchen erhalten beispielsweise oft schlechtere Bildungsmöglichkeiten oder gar weniger Nahrung als die Jungen in der Familie. Der Zugang zu wichtigen Ressourcen wie Informationen und Dienstleistungen bleibt ihnen vielerorts verwehrt, wogegen sie kaum ankämpfen können. Über Generationen hinweg hat sich so eine Diskriminierung von Frauen etabliert. 
+        In Togo ist die Jugendarbeitslosigkeit ein grosses Problem, das viele junge Menschen in die Kriminalität treibt. Oftmals fehlt es an Perspektiven und Unterstützung, um diesen Teufelskreis zu durchbrechen. Die Jugendlichen sehen sich mit einer schwierigen sozialen und wirtschaftlichen Lage konfrontiert, die den Weg in ein geregeltes Leben erschwert.
+        
+        Das Projekt «Doin' it Right» setzt hier an und bietet Jugendlichen, die mit dem Gesetz in Konflikt geraten sind oder Gefahr laufen, straffällig zu werden, umfassende Unterstützung. In Zusammenarbeit mit lokalen Partnern erhalten rund 1'500 Jugendliche Hilfe in Form von psychologischer, juristischer und sozialer Beratung und Betreuung. Ein wichtiger Aspekt ist dabei die Arbeit innerhalb der Gefängnisse, wo sich die Jugendlichen in juristischen Clubs organisieren, um sich gegenseitig rechtlichen Beistand zu leisten und Unterstützung durch Freiwillige sowie das Projektteam zu erhalten. Zudem werden Massnahmen zur Stärkung der Resilienz der Jugendlichen umgesetzt, einschliesslich schulischer und beruflicher Wiedereingliederungsprogramme. Ein zentraler Bestandteil ist auch die Einbeziehung des sozialen und familiären Umfelds, um die Rückkehr in die Gesellschaft bereits während der Haft vorzubereiten und so die Chancen auf eine erfolgreiche Wiedereingliederung zu erhöhen.
 
-        Horyzon will dem entgegenwirken und führt deshalb seit Frühling 2023 ein neues Projekt in Kathmandu: «EmpowHER - Starke Frauen, starke Gemeinschaften». Zusammen mit YWCA Nepal werden junge Frauen in ihrer Rolle gestärkt und gefördert. Sie erhalten die Möglichkeit, Kurse und Workshops mit Fachpersonen zu besuchen und sich Wissen in verschiedenen Bereichen anzueignen, beispielsweise zu Themen wie Menschenrechte, psychische Gesundheit, Familienplanung oder Finanzen. Das Ziel ist, dass die Projektteilnehmerinnen das Erlernte danach an andere Frauen in ihren Gemeinschaften weitergeben.
+        Das Projekt wird mit zwei Dritteln des Erlöses unterstützt. Weitere Informationen gibt es auf der <a target="_new" href="https://horyzon.ch/de/projekte/togo">Website</a> von Horyzon.
 
-        Das Projekt wird mit zwei Dritteln des Erlöses unterstützt. Weitere Informationen gibt es auf der <a target="_new" href="https://horyzon.ch/de/projekte-und-themen/engagement-weltweit/nepal/">Website</a> von Horyzon.
+    - title: Label iPunkt – gleiche Chancen für Arbeitskräfte mit Behinderungen
+      image: ipunkt.jpeg
+      body: |
+        Arbeit dient der Existenzsicherung, ist ein Ort des Austausches, der Begegnung und der
+        persönlichen Weiterentwicklung. Menschen mit Behinderungen sind jedoch beim Zugang zum
+        Arbeitsmarkt mit vielfältigen Hindernissen konfrontiert.
+         
+        Hier setzt iPunkt an: Die Vision ist eine Arbeitswelt, die Menschen mit Behinderungen die
+        gleichberechtigte Teilnahme ermöglicht. Arbeitgebende werden bei der Gestaltung eines
+        Arbeitsumfelds begleitet, in dem Erwerbstätige mit Behinderungen ihr Potential wertschöpfend
+        einbringen können. Mit dem schweizweit einzigartigen Label werden Unternehmen ausgezeichnet,
+        die eine inklusive Personalpolitik voranbringen und auf Arbeitskräfte mit Behinderungen zählen –
+        neu auch im Kanton Solothurn!
+        
+        Davon profitieren alle – Menschen mit Behinderungen, Unternehmen und letztlich die Gesellschaft
+        als Ganzes. Die Arbeit von iPunkt ist wichtig, weil Inklusion nicht von selbst geschieht.
+        Inklusion ist kein Sprint – aber jede Runde zählt! Mit dem Erlös aus dem Oltner 2-Stunden-Lauf
+        wird die Arbeit des Trägervereins iPunkt im Kanton Solothurn unterstützt. Ziel ist es, Menschen mit
+        Behinderungen aus der Region aktiv in die operative Arbeit des Vereins einzubinden. Damit
+        Inklusion nicht nur gefordert, sondern auch gelebt wird.
 
-    - title: SAC Sektion Olten – 100 Jahre Weissmieshütten / Umbau und Erweiterung
-
-      image: weissmies.jpeg
-      body: | 
-        Die  Sektion Olten des Schweizer Alpen-Club SAC bezweckt insbesondere die Durchführung von Touren, Kursen, Vorträgen sowie die Ausbildung und Förderung der Jugend im Bergsteigen, Klettern und Skifahren. Der Verein ist Eigentümerin der Weissmieshütten oberhalb von Saas-Grund auf 2‘726m.ü.M. Im August 2025 jährt sich die Einweihung der alten, ursprünglichen Weissmieshütte zum 100-sten Mal.  Die Zeit ist reif für eine Gesamterneuerung der beiden Häuser. Die Realisierung dieses Vorhabens ist eine grosse Herausforderung für den SAC Olten.
-
-        Der Verein ist überzeugt, dass die Investition werthaltig ist. Geologische Gutachten liegen vor. Die Hütten liegen inmitten eines leicht zugänglichen Hochtouren-, Wander- und Skigebietes. Zur Zeit werden im Saastal umfangreiche Investitionen in eine MTB-Infrastruktur getätigt.        
-
-        Ein Drittel des Lauferlöses geht an den SAC Olten für die Renovation der Weissmieshütte.  Weitere Informationen sind auf der <a target="_new" href="https://www.sac-olten.ch/huetten/weissmieshuette-renovation.php">Website</a> des SAC Olten zu finden.
+        Ein Drittel des Lauferlöses geht an iPunkt.  Weitere Informationen sind auf der <a target="_new" href="https://ipunkt.swiss/">Website</a> von iPunkt zu finden.
 ---
 Der 2-Stunden-Lauf unterstützt jedes Jahr ein lokales und ein internationales gemeinnütziges Projekt.
 

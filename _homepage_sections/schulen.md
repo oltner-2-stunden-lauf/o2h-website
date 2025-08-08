@@ -8,17 +8,11 @@ columns: true
 
 ### Sechs Gründe, warum Ihre Klasse beim Oltner 2-Stunden-Lauf dabei sein sollte
 
-> Achtung, diese Informationen beziehen sich auf den Lauf 2024. Sie treffen
-> aber auch für den Lauf 2025 zu. Er findet dezentral vom 13.9 bis 20.9 statt.
-> Der Abschluss mit dem Stadtlauf wird am 20.9.2025 in der Innenstadt
-> ausgetragen. Die Informationen zu den offiziellen Projekten 2025 werden
-> wir anfang Juni aufschalten.
-
-1. **Gemeinsam Gutes tun**: Mit dem Sponsorenlauf werden ein Bildungsprojekt für Mädchen in Nepal und die Renovation der Weissmieshütte des SAC Olten unterstützt. Nehmen Sie mit Ihrer Klasse am 2-Stunden-Lauf teil, und tragen Sie so direkt zum Erfolg der beiden gemeinnützigen Projekte bei. Die Projekte lassen sich auch gut im Unterricht thematisieren.
+1. **Gemeinsam Gutes tun**: Mit dem Sponsorenlauf werden das Projekt «Doin' it Right» für straffällige Jugendliche in Togo und das Label iPunkt zur Inklusion von Menschen mit Behinderungen am Arbeitsplatz unterstützt. Nehmen Sie mit Ihrer Klasse am 2-Stunden-Lauf teil, und tragen Sie so direkt zum Erfolg der beiden gemeinnützigen Projekte bei. Die Projekte lassen sich auch gut im Unterricht thematisieren.
 
 2. **Klassenkasse aufbessern**: Ein Drittel der Sponsorengelder, die Ihre Schüler*innen sammeln, können Sie für ein eigenes Klassenprojekt einsetzen.
 
-3. **Flexibel teilnehmen**: Es besteht die Möglichkeit, am offiziellen Lauf am 14. September in der Stadt Olten teilzunehmen oder selbst einen eigenen Lauf in der Woche davor zu veranstalten. Anmeldung und Sponsorenverwaltung laufen in beiden Fällen über das voll automatisierte Computersystem des Oltner 2-Stunden-Laufs.
+3. **Flexibel teilnehmen**: Es besteht die Möglichkeit, am offiziellen Lauf am 20. September in der Stadt Olten teilzunehmen oder selbst einen eigenen Lauf in der Woche davor zu veranstalten. Anmeldung und Sponsorenverwaltung laufen in beiden Fällen über das voll automatisierte Computersystem des Oltner 2-Stunden-Laufs.
 
 4. **Individuelle Bewegungsmöglichkeit**: Wenn Sie selbst einen Lauf
    veranstalten, können sich Ihre Schüler*innen nicht nur zu Fuss, sondern
@@ -35,14 +29,12 @@ PS: Die Teilnahme am Lauf ist für Personen bis zum 16. Geburtstag kostenlos!
 
 ### Downloads
 
-- [Anleitung für Gruppenanmeldung (PDF)](/assets/anleitung-gruppen.pdf)
-- [Vorlage für Sponsoringbrief (DOCX Word)](/assets/sponsorbrief.docx)
-- [Checkliste für Lehrpersonen (DOCX Word)](/assets/checkliste.docx)
-- ["Sechs-Gründe-Flyer" zum weitergeben (PDF)](/assets/flyer-lp.pdf)
+- [Anleitung für Gruppenanmeldung](https://docs.google.com/document/d/1Nl3psSVp02oj4ZaFsH8N1rXE6IjuE2xov3ptF_0YOdw/edit?tab=t.0)
+- [Vorlage für Sponsoringbrief](https://docs.google.com/document/d/1Z5nIlM6v4-UT4fByiuTetxPY5dYiurIXzFwdhwmYoXk/edit?tab=t.0)
+- [Checkliste für Lehrpersonen](https://docs.google.com/document/d/1vQe2UYYVZiuwhsi9lBb7Qe7edJVoqIpcuwEZ3kqjRGk/edit?tab=t.0)
+- ["Sechs-Gründe-Flyer" zum weitergeben](https://docs.google.com/document/d/1CtTmii-8c_uYd_q_lPNgGYw5ZEAXnXK0wAKUwsabLXc/edit?tab=t.0)
 
 Wenn Sie Rückmeldungen oder Fragen zu den Dokumenten haben, können Sie uns
 gerne kontaktieren unter <mailto:anmeldung@o2h.ch>.  Wenn Sie gleich
 selber eine Korrektur oder Ergänzung an den Dokumenten vornehmen möchten,
-können Sie dies direkt auf [Google
-Drive](https://drive.google.com/drive/folders/1-9-Q15ZdR2qnZNMqHg4JXLZkb71hHAkF?usp=sharing)
-tun.
+nur zu! wir erhalten dann automatisch eine Benachrichtigung.
